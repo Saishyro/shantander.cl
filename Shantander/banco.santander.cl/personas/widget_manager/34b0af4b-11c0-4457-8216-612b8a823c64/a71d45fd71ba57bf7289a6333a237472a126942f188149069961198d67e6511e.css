@@ -1,0 +1,30 @@
+#benefecios_destacados .s-section{
+	background-image:url(../../../uploads/000/008/939/0b02f246-f6f1-4934-808c-633e4f0e7d58/original/beneficios-bg.png);
+	background-position:90% bottom !important;
+	background-repeat:no-repeat;
+	background-size:40%;
+	padding-bottom:100px;
+}
+#benefecios_destacados .beneficios-list .s-slider-item:nth-child(2){
+	margin-top:48px;
+}
+#benefecios_destacados .beneficios-list .s-slider-item:nth-child(3){
+	margin-top:-32px;
+}
+#benefecios_destacados .beneficio-img{max-width:110px;}
+#benefecios_destacados .item .ben-desc p{min-height:40px;}
+#benefecios_destacados .box-content{padding-bottom:48px;}
+#benefecios_destacados .link{position:absolute;bottom:0;left:0;width:100%;padding:16px;}
+
+.contrast #benefecios_destacados .s-section{background-image: none;}
+
+@media screen and (max-width: 990px){
+	#benefecios_destacados .beneficios-list .s-slider-item{margin-top:0 !important;}
+	#benefecios_destacados .item .box-component{box-shadow:none !important;border:solid #eee 1px;}
+	.contrast #benefecios_destacados .item .box-component{border-color:#f8e71c;}
+}
+
+@media screen and (max-width: 480px){
+	#benefecios_destacados .beneficios-list .s-slider-item{padding-right:25px !important}
+	#benefecios_destacados .s-section{background-size:100%;background-position:200px 300px !important}
+}

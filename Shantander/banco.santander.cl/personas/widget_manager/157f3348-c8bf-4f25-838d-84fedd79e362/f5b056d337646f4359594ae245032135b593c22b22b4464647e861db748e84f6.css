@@ -1,0 +1,682 @@
+
+.s-hero-products {
+	background-image: url(../../../uploads/000/035/826/463f93b1-7e0d-4ef7-b824-c7d2f23890c1/original/cuenta-corriente-mx-ab-desktop.png);
+	min-height: 425px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-size: cover;
+}
+
+#ccme-contenido .headin-2 {
+	font-size: 36px;
+	line-height: 1.2em;
+}
+
+#ccme-contenido .headin-3 {
+	font-size: 28px;
+	line-height: 38px;
+	display: block;
+}
+/*Casa de cambio*/
+#casa-cambio .ccd-img{height: 240px; border-radius: 16px 0px 0px 16px; overflow: hidden;}
+
+#casa-cambio .ccd-img{height: 240px; border-radius: 16px 0px 0px 16px; overflow: hidden;}
+img.ccd-img-radius{border-radius: 16px 0 0 16px; margin-bottom: -3px}
+ .flag__img{width: 30px;}
+
+#ccme-contenido .line-gris {border-left: 1px solid #bbbbbb; background-color: #bbbbbb; height: 60px; width: 1px;}
+#ccme-contenido .line-gris-mob {border-left: 1px solid #bbbbbb; background-color: #bbbbbb; height: 1px; width: 80%;}
+
+/*BENEFICIOS */
+
+#ccme-contenido .icon-box-chin{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: static;
+	border-radius: 16px 0 0 16px;
+	height: 100%;
+	width: 82px;
+	min-width: 82px;
+	border: 0;
+}
+
+#ccme-contenido .icon-box-chin span {
+	font-size: 36px;
+	color: #fff;
+	top: 0;
+	bottom: 0;
+	height: 36px;
+	margin: auto;
+	position: static;
+	left: 0;
+	right: 0;
+}
+
+#ccme-contenido .box-content-chin{
+	padding: 20px;
+	margin: 0!important;
+	width: 100%;
+}
+#ccme-contenido .box-content-chin p{
+	text-align: left!important;
+	font-size: 16px!important;
+	line-height: 22px!important;
+}
+#ccme-contenido .bg-destaca{
+	background: url(../../../uploads/000/035/821/a4c62c02-3f62-454b-9759-f4b676981429/original/cc-mx-background-2-desktop.png) no-repeat;
+	background-position-y: bottom;
+	background-size: cover;
+}
+
+#ccme-contenido .bg-destaca::before {
+	background: url(../../../uploads/000/035/821/a4c62c02-3f62-454b-9759-f4b676981429/original/cc-mx-background-2-desktop.png) no-repeat;
+	background-position-y: bottom;
+	background-size: cover;
+}
+
+#ccme-contenido .bg-destaca::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url(../../../uploads/000/035/189/39c6b645-a491-4d90-b514-a0545ed3e918/original/cc-mx-linebot-2-desktop.png) no-repeat;
+	margin: 0 auto;
+	z-index: -1;
+	height: 95px;
+}
+
+#ccme-contenido .bg-destaca2{
+	background: url(../../../uploads/000/035/190/fb79a457-e1ad-4f3e-bf00-31edb4641ea5/original/cc-mx-background-4-desktop.png) no-repeat;
+	background-position-y: top;
+	background-size: cover;
+}
+
+#ccme-contenido .bg-destaca2::before {
+background: url(../../../uploads/000/035/190/fb79a457-e1ad-4f3e-bf00-31edb4641ea5/original/cc-mx-background-4-desktop.png) no-repeat;
+	background-position-y: top;
+	background-size: cover;
+}
+
+#ccme-contenido .bg-destaca2::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	z-index: -1;
+	height: 95px;
+}
+
+#ccme-contenido .container-tab {
+	/*max-width: 1176px; */
+	max-width: 1176px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 32px;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+	position: relative;
+	padding: 35px;
+}
+
+#ccme-contenido .s-section:nth-child(2) .container{
+	padding-bottom: 120px;
+}
+
+#ccme-contenido .s-section:nth-child(2) .container h2 strong{
+	font-size: 28px;
+	line-height: 38px;
+	display: block;
+	font-family: SantanderMicroTextW05-Bold,Arial,sans-serif;
+}
+
+#ccme-contenido .row.total {
+	justify-content: center;
+}
+
+#ccme-contenido .row.total .col{
+	width: 33%;
+	flex-basis: auto;
+	flex-grow: inherit;
+}
+
+#ccme-contenido .box-component.icon {
+	margin-top: 0;
+} 
+
+#ccme-contenido .box-component-alt, 
+.box-component-normal{
+	padding: 0 !important;
+	display: flex;
+	align-items: center;
+	/*height: 82px; */
+	height: 160px;
+}
+
+#ccme-contenido .txt-desc-button {
+	font-size: 14px;
+	line-height: 19px;
+	text-align: center;
+	display: block;
+	margin-bottom: 12px !important;
+}
+
+#ccme-contenido .bg-destaca::after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: url(../../../uploads/000/035/189/39c6b645-a491-4d90-b514-a0545ed3e918/original/cc-mx-linebot-2-desktop.png) no-repeat;
+	margin: 0 auto;
+	z-index: -1;
+	height: 95px;
+}
+
+#ccme-contenido .bg-destaca::before {
+	background: url(../../../uploads/000/035/821/a4c62c02-3f62-454b-9759-f4b676981429/original/cc-mx-background-2-desktop.png) no-repeat;
+	background-position-y: 0%;
+	background-size: auto;
+	background-position-y: bottom;
+	background-size: cover;
+}
+
+/* tabs */
+.category{
+	/*display: none;*/
+	transition: opacity .3s ease-out;
+	opacity: 0;
+	height: 0;
+}
+.category.active{
+	opacity: 1;
+	height: 100%;
+}
+
+
+.s-slider, .s-slider .tns-outer, .s-slider .tns-outer, .s-slider .tns-outer, .s-slider .tns-outer .tns-ovh, .s-slider .tns-outer .tns-ovh .tns-inner, .s-slider .tns-outer .tns-ovh .tns-inner .tns-slider{
+	height: 100%;
+}
+.s-slider .tns-outer .tns-slider>.tns-item{
+	padding: 4px;
+}
+.s-slider.w-nav{
+	margin-bottom: 48px;
+	padding-bottom: 0px;
+}
+
+.box-container {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#ccme-contenido .scroll .box-container .box-item.active{
+	background-color: var(--primary-sky);
+}
+
+#ccme-contenido .scroll .box-container .box-item.active p{
+	color: var(--primary-grey);
+	font-family: SantanderMicroTextW05-Bold,Arial,sans-serif;
+}
+
+#ccme-contenido .scroll .box-container .box-item span.icon-active.active {
+	color: var(--accessible-darkturquoise);
+}
+
+#ccme-contenido .scroll .box-container .box-item span.icon-active {
+	color: var(--secondary-turquoise);
+}
+
+#ccme-contenido .scroll .box-container .box-item.active.arrow_box {
+	position: relative;
+	background: #DEEDF2;
+	border: 1px solid #CEDEE7;
+}
+
+#ccme-contenido .scroll .box-container .box-item.active.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#ccme-contenido .scroll .box-container .box-item.active.arrow_box:after {
+	border-color: rgba(222, 237, 242, 0);
+	border-left-color: #DEEDF2;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+#ccme-contenido .scroll .box-container .box-item.active.arrow_box:before {
+	border-color: rgba(206, 222, 231, 0);
+	border-left-color: #CEDEE7;
+	border-width: 11px;
+	margin-top: -11px;
+}
+
+#ccme-contenido .scroll .box-container .box-item{
+	transition: all .3s ease;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#ccme-contenido .category-content{
+	transition: all .3s ease;
+}
+
+#ccme-contenido .scroll .box-container .box-item:hover{
+	cursor: pointer;
+}
+
+#ccme-contenido .scroll .box-container .box-item > *{
+	pointer-events: none;
+}
+
+.s-invertirDolares {
+	/*background-image: url(https://banco.santander.cl/uploads/000/035/565/d42b57e9-2a43-4b33-b899-4a9f5b9d839c/original/cc-mx-dolar-desktop.png);
+	background-repeat: no-repeat; */
+	background-position: top left;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 16px;
+}
+
+.img-invertirDolares{
+	width: 100%;
+	height: 540px;
+	object-fit: cover;
+	object-position: center; 
+}
+
+/*Destacados*/
+#ccme-contenido .bg-destaca:before {content: "";position: absolute;display: block;width: 100%;  max-width: 1290px;height: auto;top: 9%;bottom: 0;right: 0;left: 0;background: url(../../../uploads/000/016/280/5a20d46b-15d3-444c-9425-59df59231a90/original/bg-nuevo-destacados-home.png) no-repeat;background-size: contain;margin: 0 auto;z-index: -1;}
+#ccme-contenido .s-product {height: 315px; margin-bottom: 15px; box-shadow: 0 0 15px rgba(0,0,0,.10); border: none;}
+#ccme-contenido .s-product figure {height: 160px;}
+#ccme-contenido .s-product figure img {min-height: auto; max-width: 100%; width: 100%;}
+#ccme-contenido .row.mini>.col, #desct-new .row.mini>[class*=col-] {padding-bottom: 20px;}
+
+#ccme-contenido .s-product .content {
+	top: 160px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 230px;
+	box-sizing: border-box;
+	transition: all 0.4s cubic-bezier(.48, -0.28, 0.41, 1.4);
+	border-top:1px solid var(--neutral-grey-10);
+}
+#ccme-contenido .s-product .content .content-up {background: var(--primary-white); height: 155px;}
+#ccme-contenido .s-product .content .content-up h2 {font-family:var(--microtext-bold);max-height: 50px;overflow: hidden;}
+#ccme-contenido .s-product .content .content-down {display: block !important;}
+#ccme-contenido .s-product .content .content-down>div>.btn-holder {opacity: 0;transition: 0.5s;transform: translateY(2em);}
+
+#ccme-contenido .s-product .img-holder:after {
+	content: '';
+	position: absolute;
+	background: var(--primary-black);
+	display: block;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	transition: .5s ease;
+	opacity: 0;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+#ccme-contenido .label-estrella{
+	border-radius: 0 0 20px 20px;
+	padding: 6px 6px 8px;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	z-index: 1;
+	background: var(--accessible-accessiblesky);
+}
+
+#ccme-contenido .label-estrella span {
+	color: var(--primary-white);
+	font-size: 24px;
+	animation-duration: 1.3s;
+	animation-iteration-count: infinite;
+	display:block;
+}
+
+#ccme-contenido .px-0 { padding-left: 0 !important; padding-right: 0 !important;}
+
+.sectionCalugas:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-size: cover;
+  margin: 0 auto;
+  z-index: -1;
+  background: url(../../../uploads/000/035/314/57186ef8-8b81-45c7-9265-e01502298cbb/original/cc-mx-background-6-desktop.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+
+/*----Only Desktop-----*/
+@media (min-width: 767px){
+	#ccme-contenido .s-product:hover .img-holder:after {opacity: .3;}
+	#ccme-contenido .s-product:hover .content .content-down>div>.btn-holder {opacity:1; transform:translateY(-1em);}
+	#ccme-contenido .s-product:hover .content {top: 110px; height: 100%; width: 100%; bottom: 0; left: 0;}
+}
+
+/*---Mobile & Responsive----*/
+#ccme-contenido .destacados-home.mobile {width: 100%;height: 100%;}
+#ccme-contenido .destacados-home.mobile > div {overflow-y:none;overflow-x: scroll;width: 100%;-ms-overflow-style: none;overflow: -moz-scrollbars-none;scrollbar-width: none;height:auto; padding: 0 16px;}
+
+@media (max-width: 1199px){
+	#ccme-contenido .s-product {height: 345px;}
+	#ccme-contenido .s-product .content .content-up {height: 185px;}
+	#ccme-contenido .s-product .content .content-up h2 {max-height: 90px;}
+}
+
+@media (max-width: 767px){
+	#ccme-contenido .s-product {height: 328px;border-top-left-radius: 16px;border-top-right-radius: 16px;}
+	#ccme-contenido .bg-destaca:before {max-width: 100%;background-size: cover;}
+	#ccme-contenido .s-product .content .content-up {height: 155px;}
+
+
+}
+
+/*---Accesibilidad---*/
+.contrast #ccme-contenido .label-estrella{background:var(--accessible-yellow);}
+.contrast #ccme-contenido .label-estrella span{ color: var(--primary-black) !important;}
+.contrast #ccme-contenido .bg-destaca:before {background: none;}
+.contrast #ccme-contenido .s-product {border: 1px solid;}
+.contrast #ccme-contenido .s-product .content{border:1px solid var(--accessible-yellow);}
+
+.black-white #ccme-contenido .label-estrella{background:var(--primary-black);}
+.black-white #ccme-contenido .label-estrella span {background: var(--primary-black);}
+.black-white #ccme-contenido .bg-destaca:before {background: none;}
+
+
+@media (max-width: 768px) {
+	.s-invertirDolares {
+		/*  padding: 84% 0 20px; */
+	}
+}
+@media (min-width: 1440px) {
+	.s-invertirDolares {
+		background-size: 50%;
+	}
+}
+@media (max-width: 768px) {
+	.s-invertirDolares .container {
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+}
+.invertirDolares .invertirDolares__info {
+	padding: 24px 0 24px 16px!important;
+	background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 2%);
+}
+@media (max-width: 1300px) {
+	.invertirDolares .invertirDolares__info {
+		background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 10%);
+		padding-left: 50px !important;
+		padding-right: 0;
+	}
+}
+@media (max-width: 992px) {
+	.invertirDolares .invertirDolares__info {
+		background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 6%);
+	}
+}
+@media (max-width: 768px) {
+	.invertirDolares .invertirDolares__info {
+		padding: 0!important;
+	}
+	.invertirDolares__info h2 {
+		font-size: 20px!important;
+		line-height: 27px!important;
+		margin-bottom: 16px!important;
+	}
+	.invertirDolares__info p {
+		font-size: 14px!important;
+		line-height: 19px!important;
+	}
+}
+
+.invertirDolares__info__fondos div{
+	display: flex;
+	align-items: center;
+	margin: 20px 0px;
+}
+
+.invertirDolares__info__fondos div span{
+	display: block;
+	padding: 0 8px;
+	/*border-left: 1px solid #ccc;*/
+	margin-right: 8px;
+}
+
+.border-left {border-left: 1px solid #ccc}
+
+
+
+
+.invertirDolares__info__boxBtns .colBtns div {
+	max-width: 250px;
+	margin-left: auto;
+}
+.invertirDolares__info__boxBtns .txt-desc-button {
+	font-size: 14px;
+	line-height: 19px;
+	text-align: left;
+	display: block;
+	margin-bottom: 12px !important;
+	font-family: SantanderMicroTextW05-Light,Arial,sans-serif;
+}
+.invertirDolares__info__boxBtns .btn-secondary {
+	max-width: 296px;
+	width: 100%;
+}
+.invertirDolares__info__boxBtns .btn-primary{
+	max-width: 296px;
+	width: 100%;
+}
+@media (max-width: 1200px) {
+	.invertirDolares__info__boxBtns .colBtns div,
+	.invertirDolares__info__boxBtns .btn-secondary {
+		max-width: 200px;
+	}
+}
+
+
+/*Contrast*/
+.contrast #ccme-contenido .tusmov img {  filter: brightness(0%);}
+.contrast #ccme-contenido .white {color: #f8e71c!important;}
+
+/*B&N*/
+.black-white #ccme-contenido .white {color: #fff!important;}
+.black-white #ccme-contenido .black {color: #000!important;}
+.black-white #ccme-contenido .tusmov img {  filter: brightness(0%);}
+
+.mask-mobile {
+	display: none;
+}
+
+@media (max-width: 1000px){
+	.img-invertirDolares {height: 300px;}
+}
+	@media (max-width: 763px){
+		.invertirDolares__info {margin: 300px 30px!important;}
+}
+	
+
+@media(max-width:768px){
+	.s-hero-products {
+		background-image: url(../../../uploads/000/035/008/114e2026-1f86-4ee3-854e-76687a6fa871/original/cuenta-corriente-mx-ab-mobile.png);
+		background-position: center right;
+	}
+	#ccme-contenido .bg-hero {
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		padding: 60px 0;
+		background-position-x: 28%;
+	}
+	#ccme-contenido .w-md-18 { width:100% }
+
+	#ccme-contenido .box-content-chin {    
+		width: 80%;
+		float: right;
+	}
+	#ccme-contenido .icon-box-chin span {
+		font-size: 28px;
+		top: 7px;
+	}
+
+	.f-152 {font-size:152px;}
+
+	#ccme-contenido .scroll .box-container .box-item:first-child{
+		margin-left: 0px;
+	}
+	#ccme-contenido .scroll .box-container .box-item{
+		flex: 0 0;
+		flex-basis: max-content;
+		padding-right: 12px;
+		margin-top: 0px;
+		margin-left: 12px;
+	}
+	#ccme-contenido .scroll .box-container{
+		display: flex;
+		flex-wrap: nowrap;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		margin-bottom: 24px;
+	}
+	#ccme-contenido .scroll{
+		overflow-x: scroll;
+		scrollbar-width: none;
+		-ms-overflow-style: none;
+	}
+	#ccme-contenido .scroll::-webkit-scrollbar {
+		width: 0;
+		height: 0;
+		display: none;
+	}
+
+	#ccme-contenido .tusmov {
+		width: 36px;
+		height: 36px;
+		margin: 12px 4px;
+	}
+	.s-invertirDolares__info {
+		margin: 0 30px!important;
+	}
+	.img-invertirDolares {
+		height: 600px;
+	}
+	.mask-mobile {
+		content: "";
+		display: flex;
+		align-items: center;
+		flex-flow: column;
+		padding-top: 30px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255, 255, 255, 0.85)!important;
+		z-index: 2;
+	}
+
+	.mask-mobile span {
+		text-align: center;
+		display: block;
+		/*color: #257FA4;*/
+	}
+
+	#ccme-contenido .headin-2 {
+		max-width: 300px;
+		margin: 0 auto;
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	#ccme-contenido .headin-3 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.invertirDolares__info__boxBtns .colBtns div,
+	.invertirDolares__info__boxBtns .btn-secondary {
+		max-width: 296px;
+		margin: 0 auto;
+	}
+	.invertirDolares__info__boxBtns .txt-desc-button {
+		text-align: center;
+	}
+	#ccme-contenido .row.total .col{
+		width: 100%;
+		flex-basis: auto;
+		flex-grow: inherit;
+	}
+	scroll .box-container {
+		display: flex;
+		flex-wrap: nowrap;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		margin-bottom: 24px;
+	}
+	.invertirDolares__info__fondos div span{
+		/*padding: 0 8px;
+		font-size: 16px;*/
+		line-height: 22px;
+	}
+	.invertirDolares__info__fondos div span strong {
+		display: block;
+	}
+	.invertirDolares__info__boxBtns .colBtns:nth-child(1){
+		order:2;
+		text-align: center;
+	}
+	.invertirDolares__info__boxBtns .colBtns:nth-child(2){
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.s-hero-products {
+		background-size: cover;
+	}
+	
+	#ccme-contenido .btn {min-width: 300px!important;}
+		
+
+@media (max-width: 600px){
+	.img-invertirDolares {height: 410px;}
+	.img-invertirDolares {height: 410px;}
+}
+	
+
+@media (max-width: 400px){.img-invertirDolares {height: 300px;}
+	.s-product figure {
+    height: 160px;
+    /*width: 250px;*/
+		width: 100%;
+}
+	}

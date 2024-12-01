@@ -1,0 +1,91 @@
+#nuevoDestacadosHome .bg-destaca:before {content: "";position: absolute;display: block;width: 100%;  max-width: 1290px;height: auto;top: 9%;bottom: 0;right: 0;left: 0;background: url(../../../uploads/000/040/007/e1b68695-2c93-411f-be9b-5fcd955b64b5/original/bg-nuevo-destacados-home.png) no-repeat;background-size: contain;margin: 0 auto;z-index: -1;}
+#nuevoDestacadosHome .s-product {height: 315px; margin-bottom: 15px; box-shadow: 0 0 15px rgba(0,0,0,.10); border: none;}
+#nuevoDestacadosHome .s-product figure {height: 160px;}
+#nuevoDestacadosHome .s-product figure img {min-height: auto; max-width: 100%; width: 100%;}
+#nuevoDestacadosHome .row.mini>.col, #desct-new .row.mini>[class*=col-] {padding-bottom: 20px;}
+
+#nuevoDestacadosHome .s-product .content {
+    top: 160px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+    box-sizing: border-box;
+    transition: all 0.4s cubic-bezier(.48, -0.28, 0.41, 1.4);
+	border-top:1px solid var(--neutral-grey-10);
+}
+#nuevoDestacadosHome .s-product .content .content-up {background: var(--primary-white); height: 155px;}
+#nuevoDestacadosHome .s-product .content .content-up h2 {font-family:var(--microtext-bold);max-height: 50px;overflow: hidden;}
+#nuevoDestacadosHome .s-product .content .content-down {display: block !important;}
+#nuevoDestacadosHome .s-product .content .content-down>div>.btn-holder {opacity: 0;transition: 0.5s;transform: translateY(2em);}
+
+#nuevoDestacadosHome .s-product .img-holder:after {
+    content: '';
+    position: absolute;
+    background: var(--primary-black);
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    transition: .5s ease;
+    opacity: 0;
+	  border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#nuevoDestacadosHome .label-estrella{
+    border-radius: 0 0 20px 20px;
+    padding: 6px 6px 8px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    z-index: 1;
+    background: var(--accessible-accessiblesky);
+}
+
+#nuevoDestacadosHome .label-estrella span {
+    color: var(--primary-white);
+    font-size: 24px;
+    animation-duration: 1.3s;
+    animation-iteration-count: infinite;
+    display:block;
+}
+
+#nuevoDestacadosHome .px-0 { padding-left: 0 !important; padding-right: 0 !important;}
+
+
+/*----Only Desktop-----*/
+@media (min-width: 767px){
+	#nuevoDestacadosHome .s-product:hover .img-holder:after {opacity: .3;}
+	#nuevoDestacadosHome .s-product:hover .content .content-down>div>.btn-holder {opacity:1; transform:translateY(-1em);}
+	#nuevoDestacadosHome .s-product:hover .content {top: 110px; height: 100%; width: 100%; bottom: 0; left: 0;}
+}
+
+/*---Mobile & Responsive----*/
+#nuevoDestacadosHome .destacados-home.mobile {width: 100%;height: 100%;}
+#nuevoDestacadosHome .destacados-home.mobile > div {overflow-y:none;overflow-x: scroll;width: 100%;-ms-overflow-style: none;overflow: -moz-scrollbars-none;scrollbar-width: none;height:auto; padding: 0 16px;}
+
+@media (max-width: 1199px){
+	#nuevoDestacadosHome .s-product {height: 345px;}
+	#nuevoDestacadosHome .s-product .content .content-up {height: 185px;}
+	#nuevoDestacadosHome .s-product .content .content-up h2 {max-height: 90px;}
+}
+
+@media (max-width: 767px){
+	#nuevoDestacadosHome .s-product {height: 328px;border-top-left-radius: 16px;border-top-right-radius: 16px;}
+	#nuevoDestacadosHome .bg-destaca:before {max-width: 100%;background-size: cover;}
+	#nuevoDestacadosHome .s-product .content .content-up {height: 155px;}
+	
+
+}
+
+/*---Accesibilidad---*/
+.contrast #nuevoDestacadosHome .label-estrella{background:var(--accessible-yellow);}
+.contrast #nuevoDestacadosHome .label-estrella span{ color: var(--primary-black) !important;}
+.contrast #nuevoDestacadosHome .bg-destaca:before {background: none;}
+.contrast #nuevoDestacadosHome .s-product {border: 1px solid;}
+.contrast #nuevoDestacadosHome .s-product .content{border:1px solid var(--accessible-yellow);}
+
+.black-white #nuevoDestacadosHome .label-estrella{background:var(--primary-black);}
+.black-white #nuevoDestacadosHome .label-estrella span {background: var(--primary-black);}
+.black-white #nuevoDestacadosHome .bg-destaca:before {background: none;}

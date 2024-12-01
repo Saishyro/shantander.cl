@@ -1,0 +1,31 @@
+.contrast #apptabs-home .apps-list .list-item{background:#000;border-bottom-color:#f8e71c;}
+.contrast #apptabs-home .apps-list{border-color:#f8e71c;}
+#apptabs-home .apps-list .list-item{text-align:center;transition:all .3s ease;}
+#apptabs-home .apps-list .list-item figure img{max-width: 62px;margin: 0 auto;}
+#apptabs-home .apps-list .list-item .btn-holder a{color:#555;font-size:14px;transition:all .3s ease;}
+#apptabs-home .apps-list .list-item .btn-holder a:hover{color:#ec0000;}
+
+@media screen and (max-width:991px){
+	#apptabs-home .novedades-desc{text-align:center;}
+}
+
+@media screen and (max-width:514px){
+	#apptabs-home .apps-list .list-item{text-align:left;background:#fff;}
+	#apptabs-home .apps-list .list-item h3{margin:0;}
+	#apptabs-home .apps-list .list-item figure img{margin:0;max-width:72%;}
+	#apptabs-home .tab-pane{padding:0;}
+	#apptabs-home .apps-list{border:solid  #eee 1px;position:relative;}
+	#apptabs-home .apps-list .list-item span{font-size:67px;}
+	#apptabs-home .apps-list .list-item{padding:16px;border-bottom:solid  #eee 1px;}
+	#apptabs-home .apps-list .row{margin:0 -15px;}
+	#apptabs-home .apps-list .row > div{padding:0 15px;}
+	#apptabs-home .apps-list .row > div:last-of-type .list-item{border-bottom:0;}
+	#apptabs-home .s-tabs-component .nav-tabs > li{width: 50%;flex: 0 0 50%;}
+	#apptabs-home .s-tabs-component .nav-tabs > li > a{padding:16px 8px;}
+	#apptabs-home .apps-list .list-item .btn-holder a{margin-right:16px !important;margin-bottom:0 !important;}
+}
+
+@media screen and (max-width: 380px){
+	#apptabs-home .s-tabs-component .nav-tabs > li > a{font-size:13px;}
+	#apptabs-home .apps-list .list-item span{font-size:53px}
+}

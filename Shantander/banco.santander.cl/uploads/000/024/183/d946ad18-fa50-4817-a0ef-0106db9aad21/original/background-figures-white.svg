@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1443px" height="391px" viewBox="0 0 1443 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Oval + Oval + Oval + Oval + Rectangle + Rectangle + Oval Mask</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Oval-+-Oval-+-Oval-+-Oval-+-Rectangle-+-Rectangle-+-Oval-Mask" transform="translate(0.000000, 0.824121)">
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(243.000000, 47.175879) rotate(-28.000000) translate(-243.000000, -47.175879) " x="185" y="38.175879" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(1139.000000, 35.175879) rotate(-28.000000) translate(-1139.000000, -35.175879) " x="1081" y="26.175879" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(1198.500000, 196.175879) rotate(-28.000000) translate(-1198.500000, -196.175879) " x="1158" y="191.175879" width="81" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(151.500000, 192.175879) rotate(-28.000000) translate(-151.500000, -192.175879) " x="111" y="187.175879" width="81" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(671.500000, 232.175879) rotate(-28.000000) translate(-671.500000, -232.175879) " x="631" y="227.175879" width="81" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(511.500000, 32.175879) rotate(-28.000000) translate(-511.500000, -32.175879) " x="471" y="27.175879" width="81" height="10" rx="5"></rect>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="7" cx="674.5" cy="79.675879" r="10.5"></circle>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="7" cx="247" cy="282.175879" r="23"></circle>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="7" cx="717" cy="352.175879" r="23"></circle>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="7" cx="1344.5" cy="132.675879" r="18.5"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(454.000000, 354.175879) rotate(-28.000000) translate(-454.000000, -354.175879) " x="396" y="345.175879" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(1236.000000, 336.175879) rotate(-28.000000) translate(-1236.000000, -336.175879) " x="1178" y="327.175879" width="116" height="18" rx="9"></rect>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="7" cx="994.5" cy="349.675879" r="10.5"></circle>
+        </g>
+    </g>
+</svg>

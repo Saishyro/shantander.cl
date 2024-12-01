@@ -1,0 +1,22 @@
+.contrast #indicadores-home .text-link{color: #f8e71c !important;}
+.contrast #indicadores-home .text-link:after{background:#f8e71c !important;}
+
+.contrast  #indicadores-home .text-link, .contrast .text-link-secondary, .contrast .text-link-secondary span, .contrast .text-link span:not(.acc-exclude) 
+{color: #f8e71c !important;}
+
+#indicadores-home .indicadores-list > div{padding:5px;}
+#indicadores-home .indicadores-list .cont{padding:12px 8px;border-radius:10px;height:100%;}
+#indicadores-home .indicadores-list .cont.bg-red{padding:0;height:100%;}
+#indicadores-home .indicadores-list .cont.bg-red a{padding:15px 12px;color:#fff;font-size:14px;;line-height:normal;height:100%;}
+#indicadores-home .indicadores-list .cont.bg-red a span{position: absolute;right: 20px;top: 0;bottom: 0;height: 14px;margin: auto;}
+#indicadores-home .indicadores-list .text-green{color:green;}
+
+@media screen and (max-width: 991px){
+	#indicadores-home .indicadores-list .cont p.d-block{min-height:40px;}
+	#indicadores-home .indicadores-list .cont p.text-center span{margin:0;display:block;}
+}
+
+@media screen and (max-width: 768px){
+	#indicadores-home .indicadores-list li{margin-bottom:8px;border-radius:4px;}
+	#indicadores-home .indicadores-list li:last-of-type{margin-bottom:0;}
+}

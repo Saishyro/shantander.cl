@@ -1,0 +1,14 @@
+	
+#tarjetas-hero .nav-group {
+	
+	transform: translate(0, -50%);
+	position: relative;
+	z-index: 2;
+	
+}
+
+
+
+@media screen and (max-width:768px){
+	#tarjetas-hero .nav-group{transform:none;margin-top:-132px;margin-bottom:64px;}
+}

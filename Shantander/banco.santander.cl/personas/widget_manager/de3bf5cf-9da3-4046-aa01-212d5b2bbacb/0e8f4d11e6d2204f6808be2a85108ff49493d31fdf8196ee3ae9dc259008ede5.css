@@ -1,0 +1,51 @@
+#banner-mdp .overlay::before {
+		content: "";
+		display:none;
+
+}
+#banner-mdp .contrast .overlay::before {
+		content: "";
+} 
+#banner-mdp .mdp-bg {
+	background-image: url("../../../uploads/000/030/817/b06b83a9-5a06-4ae5-a0e0-2be0acdfd30b/original/onboard-bg-destacado.jpg");
+		background-position:center center;
+	  padding: 32px;
+		background-size: cover;
+}
+
+#banner-mdp .mdp-bg2 {
+	background-image: url("../../../uploads/000/043/443/e16ba51a-ef59-48e7-b2b7-e54a0e6fd1f4/original/img-medios-pago-dekstop-2.png");
+		background-position:center center;
+	  padding: 32px;
+		background-size: cover;
+}
+
+
+
+#banner-mdp .mdp-btn {
+	  margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.black-white #banner-mdp  [class*=text-]:not(.acc-exclude){
+	color: #fff !important;
+}
+
+.black-white #banner-mdp .mdp-bg {  
+	filter: grayscale(100%);
+}
+
+@media (max-width: 680px){
+	#banner-mdp .mdp-bg-2 {
+	background-image: url("../../../uploads/000/043/444/1af4fef9-abdf-4c7a-86c4-82e7f29d00a3/original/img-medios-pago-mobile-2.png");
+		background-position:center center;	
+		    padding: 12px;
+	} 
+	
+	#banner-mdp .mdp-btn {
+		margin-left: 20px;
+		margin-top:20px;
+	
+	}   
+
+}

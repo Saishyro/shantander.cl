@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1406px" height="780px" viewBox="0 0 1406 780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path 3 + Path 3 + Path 3 + Path 3 + Path 3 + Path 3 + Rectangle + Rectangle Copy 3 + Rectangle Copy 3 + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Rectangle + Oval + Oval + Oval + Oval + Oval + Oval + Oval + Oval + Oval + Oval + Oval + Oval Mask</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Path-3-+-Path-3-+-Path-3-+-Path-3-+-Path-3-+-Path-3-+-Rectangle-+-Rectangle-Copy-3-+-Rectangle-Copy-3-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Rectangle-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-+-Oval-Mask" transform="translate(0.319568, 0.000000)">
+            <path d="M657.805676,43.0898546 C657.805676,43.0898546 676.594763,80.3160878 709.24415,52.9641843 C741.893538,25.6122809 745.196266,14.5002743 688.290348,1.91011325 C631.38443,-10.6800478 657.805676,43.0898546 657.805676,43.0898546 Z" id="Path-3" fill="#F5F9FB"></path>
+            <path d="M90.5787789,269.623581 C90.5787789,269.623581 111.753781,311.576955 148.549123,280.751794 C185.344465,249.926633 189.066586,237.403578 124.93452,223.214667 C60.8024535,209.025755 90.5787789,269.623581 90.5787789,269.623581 Z" id="Path-3" fill="#F5F9FB" transform="translate(129.318583, 256.561999) rotate(-152.000000) translate(-129.318583, -256.561999) "></path>
+            <path d="M240.578779,739.623581 C240.578779,739.623581 261.753781,781.576955 298.549123,750.751794 C335.344465,719.926633 339.066586,707.403578 274.93452,693.214667 C210.802454,679.025755 240.578779,739.623581 240.578779,739.623581 Z" id="Path-3" fill="#F5F9FB" transform="translate(279.318583, 726.561999) rotate(-152.000000) translate(-279.318583, -726.561999) "></path>
+            <path d="M983.684963,468.369752 C983.684963,468.369752 997.702218,496.141704 1022.0597,475.736315 C1046.41718,455.330927 1048.88112,447.041018 1006.4275,437.648358 C963.973874,428.255698 983.684963,468.369752 983.684963,468.369752 Z" id="Path-3" fill="#F5F9FB" transform="translate(1009.329622, 459.723353) rotate(-152.000000) translate(-1009.329622, -459.723353) "></path>
+            <path d="M1266.81288,621.963185 C1266.81288,621.963185 1297.43213,682.825122 1350.63854,638.106931 C1403.84495,593.38874 1409.22717,575.221491 1316.4916,554.637577 C1223.75603,534.053662 1266.81288,621.963185 1266.81288,621.963185 Z" id="Path-3" fill="#F5F9FB" transform="translate(1322.831000, 603.014693) rotate(-152.000000) translate(-1322.831000, -603.014693) "></path>
+            <path d="M1194.56188,186.561582 C1194.56188,186.561582 1215.67061,228.514956 1252.35078,197.689795 C1289.03096,166.864634 1292.74143,154.341579 1228.81009,140.152667 C1164.87875,125.963756 1194.56188,186.561582 1194.56188,186.561582 Z" id="Path-3" fill="#F5F9FB" transform="translate(1233.180432, 173.500000) rotate(-316.000000) translate(-1233.180432, -173.500000) "></path>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(1184.680432, 36.000000) rotate(-28.000000) translate(-1184.680432, -36.000000) " x="1126.68043" y="27" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle-Copy-3" fill="#F5F9FB" transform="translate(1277.680432, 392.000000) rotate(-28.000000) translate(-1277.680432, -392.000000) " x="1219.68043" y="383" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle-Copy-3" fill="#F5F9FB" transform="translate(677.680432, 532.000000) rotate(-28.000000) translate(-677.680432, -532.000000) " x="619.680432" y="523" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(286.680432, 90.000000) rotate(-28.000000) translate(-286.680432, -90.000000) " x="228.680432" y="81" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(1206.680432, 731.000000) rotate(-28.000000) translate(-1206.680432, -731.000000) " x="1148.68043" y="722" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(156.680432, 570.000000) rotate(-28.000000) translate(-156.680432, -570.000000) " x="98.6804319" y="561" width="116" height="18" rx="9"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(36.782314, 451.451750) rotate(-28.000000) translate(-36.782314, -451.451750) " x="-2.21768606" y="446.45175" width="78" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(1046.782314, 711.451750) rotate(-28.000000) translate(-1046.782314, -711.451750) " x="1007.78231" y="706.45175" width="78" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(486.782314, 671.451750) rotate(-28.000000) translate(-486.782314, -671.451750) " x="447.782314" y="666.45175" width="78" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(1147.782314, 509.451750) rotate(-28.000000) translate(-1147.782314, -509.451750) " x="1108.78231" y="504.45175" width="78" height="10" rx="5"></rect>
+            <rect id="Rectangle" fill="#F5F9FB" transform="translate(758.782314, 149.451750) rotate(-28.000000) translate(-758.782314, -149.451750) " x="719.782314" y="144.45175" width="78" height="10" rx="5"></rect>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="61.6804319" cy="80" r="18"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="994.180432" cy="97.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="1372.68043" cy="229" r="19"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="902.680432" cy="649" r="19"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="362.680432" cy="599" r="19"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="632.680432" cy="149" r="19"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="214.180432" cy="387.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="414.180432" cy="557.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="814.180432" cy="427.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="1154.18043" cy="595.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="724.180432" cy="729.5" r="10.5"></circle>
+            <circle id="Oval" stroke="#F5F9FB" stroke-width="7" cx="84.1804319" cy="684.5" r="10.5"></circle>
+        </g>
+    </g>
+</svg>

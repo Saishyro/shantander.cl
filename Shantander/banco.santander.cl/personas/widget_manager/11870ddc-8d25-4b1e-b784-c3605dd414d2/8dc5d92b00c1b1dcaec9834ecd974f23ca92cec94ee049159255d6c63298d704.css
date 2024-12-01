@@ -1,0 +1,37 @@
+#destacadoMarketplace .cont:hover{-webkit-box-shadow:0 0 28px 0 rgba(0,0,0,0.1);-moz-box-shadow:0 0 28px 0 rgba(0,0,0,0.1);box-shadow:0 0 28px 0 rgba(0,0,0,0.1)}
+#destacadoMarketplace .cont{border-radius:12px}
+#destacadoMarketplace .bg-title{background:url(../../../uploads/000/017/489/864f547b-78cc-498e-91b8-41e23ca1e6da/original/bg-title.png) no-repeat;background-size:cover;background-color:#deedf2;top:0;border-radius:12px 12px 0 0;padding:20px;border-bottom:5px solid #fff;text-align:center}
+#destacadoMarketplace .bg-title span{color:var(--primary-grey)}
+#destacadoMarketplace .br-content{border-radius:0 0 12px 12px}
+#destacadoMarketplace .cont{width:100%;cursor:pointer;transition:.5s;transform:translateY(0);position:relative;}
+#destacadoMarketplace .cont:hover{transform:translateY(-1em)}
+#destacadoMarketplace .cont .img-inside{border-radius:0 0 12px 12px}
+#destacadoMarketplace .cont figure{height:300px;position:relative;overflow:hidden}
+#destacadoMarketplace .cont img{position:absolute;left:-50%;right:-50%;bottom:-50%;top:-50%;margin:auto;width:100%;height:auto;max-width:none}
+#destacadoMarketplace img.img-inside{overflow:hidden;height:548px}
+#destacadoMarketplace .cont:hover figure{filter:brightness(0.4)}
+#destacadoMarketplace .cont .cont-contenido{border-radius:12px}
+#destacadoMarketplace .cont .btn-hov{visibility:hidden;transition:visibility 0.5s,opacity .5s linear;opacity:0;position: absolute;bottom: 30px;width:100%;}
+#destacadoMarketplace .cont:hover .btn-hov{visibility:visible;opacity:1}
+#destacadoMarketplace .cont .img-inside{width:100%;height:auto;overflow:hidden}
+#destacadoMarketplace .cont .img-inside img{width:100%;transform:scale(1.05)}
+#destacadoMarketplace .cont .img-inside figure{transition:transform 0.5s,filter .5s ease-out;transform:scale(1.05)}
+#destacadoMarketplace .cont .img-inside figure:hover{transition:transform 2s,filter 3s ease-out;transform:scale(1.2)}
+#destacadoMarketplace .destacadoMarketplace.mobile{width:100%;height:100%}
+#destacadoMarketplace .destacadoMarketplace.mobile > div{overflow-y:none;overflow-x:scroll;width:100%;-ms-overflow-style:none;overflow:-moz-scrollbars-none;scrollbar-width:none;height:auto;padding:20px 10px}
+
+@media (max-width: 1199px) {
+	#destacadoMarketplace .s-box .content .content-down{height:185px}
+	#destacadoMarketplace .cont figure{height:160px}
+}
+
+@media (max-width: 767px) {
+	#destacadoMarketplace{border-top-left-radius:16px;border-top-right-radius:16px}
+	#destacadoMarketplace .cont figure{height:300px}
+	#destacadoMarketplace .cont:hover{transform: none;}
+	#destacadoMarketplace .cont .btn-hov{visibility: visible;opacity: 1;}
+}
+
+.contrast #destacadoMarketplace .bg-destaca:before{background:none}
+.contrast #destacadoMarketplace .bg-title{border-bottom:5px solid var(--primary-black)}
+.black-white #destacadoMarketplace .bg-title{background:var(--neutral-grey-10) !important;}

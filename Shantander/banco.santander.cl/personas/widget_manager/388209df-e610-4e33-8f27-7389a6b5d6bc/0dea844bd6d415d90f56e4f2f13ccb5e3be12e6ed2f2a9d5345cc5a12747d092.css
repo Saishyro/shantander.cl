@@ -1,0 +1,97 @@
+#destacadoProd .s-product {
+    height: 215px;
+}
+
+#destacadoProd .s-product figure {
+    height: 215px;
+	  position: absolute;
+}
+
+#destacadoProd .s-product figure img {
+    bottom: 0;
+    margin: auto;
+    max-width: none;
+    min-height: 100%;
+    position: absolute;
+    right: -20%;
+    top: 60%;
+}
+
+#destacadoProd .s-product .box-product {
+	margin-top: 120px;
+  position: relative;
+  background-color: #ffffffd1;
+	height: 100%;
+	width: 100%;
+}
+
+#destacadoProd .tooltip-content {
+	width: auto;
+}
+
+#destacadoProd .tool-tip-consumer .tooltip-msg p {
+	color: red !important;
+	text-align: center !important;
+}
+
+#destacadoProd .tool-tip-verde .tooltip-msg p {
+	color: #008437 !important;
+	text-align: center !important;
+}
+
+#destacadoProd .verde.text-link, .verde.text-link:hover{color: #008437!important;}
+
+#destacadoProd .verde.text-link-secondary:after, .verde.text-link:after {background: #008437!important;}
+
+#destacadoProd .hover-verde, .hover-rojo{
+  border: 0.5px solid #ccc;
+}
+
+#destacadoProd .hover-verde:hover {
+	background: var(--bg-principal);
+	border-color: transparent;
+	font-family: SantanderMicroTextW05-Bold,Arial,sans-serif!important;
+	color: #008437;
+}
+#destacadoProd .hover-rojo:hover {
+	background: var(--bg-principal);
+	border-color: transparent;
+	font-family: SantanderMicroTextW05-Bold,Arial,sans-serif!important;
+	color: #ec0000;
+}
+
+#destacadoProd .icon-hover:hover {border: 1px solid  #008437;}
+
+#destacadoProd .icon-hover-red:hover {border: 1px solid #ec0000;}
+
+#destacadoProd .float-right {float: right;}
+
+#destacadoProd  .crediagil:hover .crediagil {background-image: url("../../../uploads/000/041/699/b9e4afac-1eb0-451c-9021-0107dc6fa758/original/crediagil.svg");}
+
+
+.contrast :not(.acc-exclude) h2.text-accessible-green.fw-normal.mb-12 {
+    color: #000!important;
+}
+
+.contrast :not(.acc-exclude) span.str-sustainable-services.f-52.text-accessible-green.fw-bold.mr-12 {
+    color: #000!important;
+}
+
+.contrast :not(.acc-exclude) h2.text-primary-santander.fw-normal.mb-12 {
+    color: #000!important;
+}
+.contrast :not(.acc-exclude) span.str-car.f-52.text-primary-santander.fw-bold.mr-12 {
+    color: #000!important;
+}
+
+.contrast :not(.acc-exclude) span.str-bank-branch.text-accessible-green.f-36.p-8.mx-8.v-align-middle.icon-hover.full-radius.bg-support-lightsuccess
+{color: #000!important;}
+.contrast :not(.acc-exclude) span.str-sustainable-services.text-accessible-green.f-36.p-8.mx-8.v-align-middle.icon-hover.full-radius.bg-support-lightsuccess {color: #000!important;}
+
+.contrast :not(.acc-exclude) span.str-card.text-accessible-green.f-36.p-8.mx-8.v-align-middle.icon-hover.full-radius.bg-support-lightsuccess{color: #000!important;}
+
+.contrast :not(.acc-exclude)  span.str-quotations.text-accessible-green.f-36.p-8.mx-8.v-align-middle.icon-hover.full-radius.bg-support-lightsuccess{color: #000!important;}
+
+.contrast :not(.acc-exclude)  span.str-car.text-primary-santander.f-36.p-8.mx-8.v-align-middle.icon-hover-red.full-radius.bg-principal{color: #000!important;}
+
+.contrast :not(.acc-exclude)  span.str-associations.text-primary-santander.f-36.p-8.mx-8.v-align-middle.icon-hover-red.full-radius.bg-principal {color: #000!important;}

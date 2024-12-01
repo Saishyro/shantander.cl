@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&amp;display=swap');
+
+#new-planes .changa-one-regular { font-family: "Changa One", sans-serif; font-weight: 400; font-style: normal; }
+
+#new-planes .pt-0-cta{padding-top: 0px!important}
+
+#new-planes{ background: linear-gradient(180deg, #F5F9FB 0%, rgba(217, 217, 217, 0) 100%); background-size: 100% 2000px; background-repeat: no-repeat;}
+#new-planes #hazte-cliente .btn-holder>:last-of-type{margin-top: 24px!important;}
+
+#new-planes .santander-line{width: 37px; height: 3px;}
+
+#new-planes .bg-plan-life{background-color: #653E68;}
+#new-planes .bg-plan-empresas{background-color: #222;}
+
+#new-planes .link-white {color: var(--primary-white);}
+#new-planes .link-white:after,#new-mas-lucas .link-white:hover:after{background: var(--primary-white) !important;}
+
+#new-planes .plan-card{position: relative; overflow: hidden; height: 400px; background-size: cover; background-repeat: no-repeat; display: flex; align-items: flex-end; padding: 24px;}
+#new-planes .plan-card.plan-card__lucas{background-image: url('../../../uploads/000/048/695/f6d15985-ce0d-47e9-9faa-424695e5db11/original/destacado-mas-lucas-jun24.jpg'); background-position: 50%;}
+#new-planes .plan-card.plan-card__life{background-image: url('../../../uploads/000/049/380/30af24d1-c986-4ab3-9615-d7f61f4e0a2a/original/destacado-cuenta-corriente-life.jpg');}
+
+#new-planes .plan-card .plan-card__logo{position: absolute; left: 30px; top: 22px;}
+#new-planes .plan-card .plan-card__description{background-color: rgba(255, 255, 255, .9);padding: 24px; width: 100%;}
+#new-planes .btn__contratar{padding: 6px 24px!important;}
+
+#new-planes .banner-maslucas{height: 200px;}
+#new-planes .banner-maslucas .banner-maslucas__img{height: 100%; width: 100%; max-width: none; object-fit: cover;}
+
+/* PREGUNTAS FRECUENTES */
+#new-planes .category{transition: opacity .3s ease-out;display: none;}
+#new-planes .category.active{display: block;}
+#new-planes .scroll .box-container .box-item.active{background-color: var(--primary-sky);}
+#new-planes .scroll .box-container .box-item.active p{color: var(--primary-grey);font-family: SantanderMicroTextW05-Bold,Arial,sans-serif;}
+
+#new-planes .scroll .box-container .box-item.active.arrow_box {position: relative;background: #DEEDF2;border: 1px solid #CEDEE7;}
+#new-planes .scroll .box-container .box-item.active.arrow_box:after, 
+#new-planes .arrow_box:before {left: 100%;top: 50%;border: solid transparent;content: "";height: 0;width: 0;position: absolute;pointer-events: none;}
+#new-planes .scroll .box-container .box-item.active.arrow_box:after {border-color: rgba(222, 237, 242, 0);border-left-color: #DEEDF2;border-width: 10px;margin-top: -10px;}
+#new-planes .scroll .box-container .box-item.active.arrow_box:before {border-color: rgba(206, 222, 231, 0);border-left-color: #CEDEE7;border-width: 11px;margin-top: -11px;}
+#new-planes .scroll .box-container .box-item{transition: all .3s ease;padding-top: 12px;padding-bottom: 12px;}
+#new-planes .category-content{transition: all .3s ease;}
+#new-planes .scroll .box-container .box-item:hover{cursor: pointer;}
+#new-planes .scroll .box-container .box-item > *{pointer-events: none;}
+
+#new-planes .caja-planes{position: relative; overflow: hidden;}
+#new-planes .cinta-planes{position: absolute; top: 0; left: 0; width: 100%; padding-top: 12px;  padding-bottom: 12px; padding-left: 24px; padding-right: 24px; font-size: 14px;}
+
+#new-planes .s-slider .row.mini>.col, .row.total>[class*=col-] {padding-left: 8px;padding-right: 8px;}
+
+#new-planes .p-relative{position: relative;}
+
+.comparator-box figure{position: absolute; bottom: 0px; right: 40px;}
+.comparator-box.empresas figure{right: 140px;}
+.comparator-description {position: relative; z-index: 2;}
+
+#new-planes .btn {min-width: 150px;padding: 13.25px 24px;}
+#new-planes .plan-menu-element a{position: relative; padding: 8px; border-radius: 4px;}
+#new-planes .plan-menu-element.active a{background-color: var(--primary-black);color: var(--primary-white);}
+#new-planes .plan-menu-element:hover a{ color: var(--primary-santander); cursor: pointer;}
+#new-planes .plan-menu-element:hover.active a{ color: var(--primary-white); cursor: pointer;}
+#new-planes .plan-menu-element.active .svg-diamond{ fill: var(--primary-white);}
+#new-planes .plan-menu .plan-menu-element > * {pointer-events: none;}
+
+#new-planes .filter-menu{gap: 0px 8px;}
+
+/* inputs */
+#new-planes .cajaInput { margin-bottom: 0px; padding-bottom: 0px; }
+#new-planes .cajaInput .cont .input{padding: 10px 45px 10px 16px!important; border: 1px solid #DDDDDD; color: #000; background-color: #fff; border-radius: 8px; font-size: 14px;}
+#new-planes .cajaInput.select-cont:not(.autocomplete) input{padding: 20px 60px 20px 16px!important;}
+
+#new-planes .modal-box {background-color: var(--primary-black);position: relative;border-radius: 30px;padding: 48px 64px;}
+
+#new-planes .modal-box .close-modal {color: var(--primary-white);font-size: 14px;font-family: var(--headline-regular);position: absolute;right: 32px;top: 24px;}
+#new-planes .fs-headline-regular {
+	font-family: var(--headline-regular);
+}
+
+#new-planes .modal-box .close-modal:hover {font-family: var(--headline-bold);cursor:pointer;}
+#new-planes .s-modal .s-modal-box .modal-content .modal-box main {padding: 16px;max-height: initial !important;}
+
+#new-planes .modal-box header, #new-planes .modal-box hr{display:none !important;}
+
+#new-planes .white-line::after {content: "";display: block;width: 120px;border-top: 1px dashed var(--primary-white);margin-top: 24px;margin-bottom: 24px;}
+#new-planes .white-line.mini::after {margin-top: 12px;margin-bottom: 12px;}
+#new-planes .radius-30{border-radius: 30px;}
+
+#new-planes #qr_contratacion_life_planes canvas, #new-planes #qr_contratacion_masLucas_planes canvas{
+	width:100% !important;
+	height:auto !important;
+}
+
+/* ACCESIBILIDAD */
+.contrast #new-planes input{background-color: #000!important;}
+.contrast #new-planes .plan-card .plan-card__description{background-color: #000;}
+
+.black-white #new-planes .bg-plan-empresas {background-color: var(--neutral-grey-10);}
+
+@media (max-width: 768px){
+	#new-planes .plan-card{padding: 24px 36px 24px 24px;}
+	
+	#new-planes .comparator-description {padding-bottom: 200px;}
+	#new-planes .comparator-box.empresas .comparator-description {padding-bottom: 0px;}
+	#new-planes .comparator-box.empresas figure{position: relative; right: initial; bottom: 0; margin-top: 36px;}
+	#new-planes .comparator-box figure {width: 180px; right: 20px;}
+	
+	#new-planes .scroll .box-container .box-item:first-child{margin-left: 0px;}
+	#new-planes .scroll .box-container .box-item{flex: 0 0;flex-basis: max-content;padding-right: 12px;margin-top: 0px;margin-left: 12px;}
+	#new-planes .scroll .box-container{display: flex;flex-wrap: nowrap;padding-top: 8px;padding-bottom: 8px;margin-bottom: 24px;}
+	#new-planes .scroll{overflow-x: scroll;scrollbar-width: none;-ms-overflow-style: none;}
+	#new-planes .scroll::-webkit-scrollbar {width: 0;height: 0;display: none;}
+	
+	#new-planes .s-hero .hero-content{position: relative;}
+}

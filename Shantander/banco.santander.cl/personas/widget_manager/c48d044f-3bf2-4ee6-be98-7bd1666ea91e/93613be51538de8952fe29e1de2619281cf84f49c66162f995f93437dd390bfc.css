@@ -1,0 +1,266 @@
+#banner_home .logo-large{height: 60px!important;}
+#banner_home .banner_home img{width: 100%;z-index:0;object-fit:cover;}
+#banner_home .banner_home{height:100vh;height: calc(var(--vh, 0.9vh) * 100);background-size: cover;background-position: right top;background-repeat: no-repeat;padding-bottom:0;position:relative;overflow:hidden;}
+#banner_home .promo-logo img{width:auto;height:40px;margin-bottom: 10px;}
+#banner_home .logo_gptw img{width:auto;height:100px;margin-bottom:20px;}
+/** Solo Safari en iOS **/
+#banner_home .banner_home.ios{ height: calc(100vh - 114px); }
+#banner_home .banner_home.android{ height: calc(100vh - 56px); }
+
+/*#banner_home.bannerFraude .banner_home img {
+  object-fit: fill;
+}
+#banner_home.bannerFraude .banner_home .title-content .container .content {
+  margin-top: 104px !important;
+}
+#banner_home.bannerFraude .stroke{
+	color: var(--accessible-yellow);
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary-black);
+}*/
+
+/* BANNER TELETON */
+/*
+#banner_home .banner-teleton .title-teleton {
+	font-size: 56px !important;
+}
+#banner_home .banner-teleton .logo-teleton{
+	width: 150px !important;
+	margin-bottom: 32px;
+}
+#banner_home .banner-teleton .no-hover {
+	cursor: initial !important;
+}
+#banner_home .banner-teleton .no-hover:hover {
+	opacity: 1 !important;
+}
+#banner_home .banner-teleton .icon-corazon {
+	width: 16px !important;
+	height: 12px;
+	background-image: url(https://banco.santander.cl/uploads/000/050/328/31145dd1-7c84-483c-acad-6e82e6576b53/original/ico-corazon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#banner_home .banner-teleton .btn-teleton:hover .icon-corazon {
+	background-image: url(https://banco.santander.cl/uploads/000/050/329/bc01a599-f51e-452c-bf00-4288bc6e1806/original/ico-corazon-white.svg);
+}
+#banner_home .banner-teleton .img-nino-teleton {
+	position: absolute;
+	bottom: -112px;
+	left: 0;
+	right: 0;
+	background-image: url(https://banco.santander.cl/uploads/000/050/327/a03411e1-b4f2-48f6-bbad-6893c0a74b61/original/img-nin_o-teleton-2024.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	height: 500px;
+}
+
+@media (height < 769px) and (width > 768px) {
+	#banner_home .banner-teleton .img-nino-teleton {
+		bottom: -160px;
+	}
+	#banner_home .banner-teleton .logo-teleton{
+		margin-bottom: 12px; !important;
+		width: 125px !important;
+	} 
+	#banner_home .banner-teleton .title-teleton {
+		font-size: 50px !important;
+		width: 70%;
+	}
+}
+
+@media (width < 769px) {
+	#banner_home .banner-teleton .img-nino-teleton {
+		margin-top: -40px;
+		position: relative;
+		height: 352px;
+		top: -13px;
+	}
+	#banner_home .banner-teleton .mt-logo {
+		margin-top: 36px;
+		margin-bottom: 24px;
+	}
+	#banner_home .banner-teleton .btn-teleton {
+		z-index: 5;
+		position: absolute;
+		bottom: -270px;
+	}
+}*/
+
+
+/* BANNER FRAUDE */
+/*#banner_home.bannerFraude .content.bg-fraude .row{
+	position: relative;
+	z-index: 2;
+}
+#banner_home.bannerFraude .content.bg-fraude:after{
+	content: '';
+	position: absolute;
+	background-image: url('https://banco.santander.cl/uploads/000/048/237/f76f6f96-a298-4bb1-9d17-fbf6dd16cfb2/original/mensaje-fraude.png');
+	background-repeat: no-repeat;
+	background-size: 70%;
+	background-position: 20% 50%;
+	width: 100%;
+	height: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+} */
+
+#banner_home.bannerFraude .banner_home img {
+  object-fit: fill;
+}
+#banner_home.bannerFraude .banner_home:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 20px;
+	width: 100%;
+	background-image: url('../../../uploads/000/050/658/eee143ba-b639-4e86-a64d-f44f88ade09f/original/huincha-fraude.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#banner_home.bannerFraude .banner_home .title-content .container .content {
+  margin-top: 34px !important;
+}
+
+@media screen and ( max-width:375px ){
+	/** iPhone X/XS Chrome en Android **/
+	#banner_home .banner_home.chrome{ height: calc(100vh - 100px); }
+}
+
+#banner_home .banner_home .old-site{position: absolute;left: 0;top: 0;width: 100%;margin-top: 16px;}
+.banner_home .old-site .str-chevron-right{vertical-align:middle !important;}
+
+#banner_home .banner_home .cont{z-index:1;position:absolute;width:100%;height:100%;top:0;left:0;}
+#banner_home .banner_home.overlay:before{top:auto;height:100%;bottom:0;background:rgba(0,0,0,.2);}
+#banner_home .banner_home .cont:before{content:"";bottom:0;top:0;background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );height:25%;display:block;width:100%;position:absolute;top:0;}
+#banner_home .banner_home.overlay:after{content:"";display:block;width:100%;height:45%;position:absolute;left:0;bottom:0;background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,.9) 100%);background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,.9) 100%);background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,.9) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );}
+#banner_home .banner_home .productos-list a{color: #fff;}
+#banner_home .banner_home .productos-list.desktop{position:absolute;width: 100%;left:0;bottom:60px;}
+#banner_home .banner_home .productos-list.desktop ul li{text-align:center;}
+#banner_home .banner_home .productos-list.desktop ul li a{display: block;color: #fff;transition: all .3s ease;}
+#banner_home .banner_home .productos-list.desktop ul li a:hover{transform: scale(1.05);}
+#banner_home .banner_home .productos-list.desktop ul li .necesidad-icon{font-size:50px;}
+#banner_home .banner_home .productos-list.desktop ul li h3{color:#fff;margin-top:8px;line-height:1.3em;font-size:14px;}
+
+#banner_home .banner_home .productos-list.mobile{position:absolute;bottom:0;width:100%;left:0;background: rgba(0,0,0,.6);padding-top:16px;}
+#banner_home .banner_home .productos-list.mobile > div {overflow-y:none;overflow-x: scroll;width: 100%;-ms-overflow-style: none;overflow: -moz-scrollbars-none;scrollbar-width: none;height:130px;}
+#banner_home .banner_home .productos-list.mobile > div::-webkit-scrollbar { width: 0 !important }
+#banner_home .banner_home .productos-list.mobile ul li{text-align:center;display: inline-block;}
+#banner_home .banner_home .productos-list.mobile ul li h3{color:#fff;font-size:14px;margin-top:8px;line-height:1.3em;}
+#banner_home .banner_home .productos-list.mobile ul li a .necesidad-icon{font-size:40px;color:#fff;}
+
+#banner_home .banner_home .title-content{height:100%;width:100%;position: absolute;top: 0;left:0;}
+#banner_home .banner_home .title-content .container{height:100%;}
+#banner_home .banner_home .title-content .container .content{width:100%;margin-top:-98px;}
+#banner_home .banner_home .title-content .container .content .btn-huella{padding:8px 16px;background:rgba(0,0,0,.4);border-radius:30px;color:#fff;font-size:14px;transition:all .3s ease;}
+#banner_home .banner_home .title-content .container .content .btn-huella:hover{background:rgba(0,0,0,.7);}
+#banner_home .banner_home .title-content .container h1{font-size:66px;color: #fff;line-height:1.1em;cursor:pointer;transition:all .3s ease;font-family:'SantanderHeadlineW05-Regular' !important;text-shadow: 0px 0px 5px rgba(0,0,0,.5);display:inline-block;}
+#banner_home .banner_home .title-content .container h1 > span{outline:0;}
+#banner_home .banner_home .title-content .container h1:focus{outline:0;opacity:.6}
+#banner_home .banner_home .title-content .container h1:hover{opacity:.6}
+#banner_home .banner_home .title-content .container h1 .icon{display:inline-block;vertical-align:middle;font-size:50px; -moz-animation: tada 1s infinite;-webkit-animation: tada 1s infinite;animation: tada 1s infinite;}
+
+#banner_home .banner_home .btn-promo{color:var(--primary-white);background:rgba(0,0,0,.3);border:1px solid rgba(255,255,255,.6);}
+#banner_home .banner_home .btn-promo:hover{background:rgba(0,0,0,.5);border-color:var(--primary-white);}
+/*#banner_home .banner_home .btn-promo:hover {background: var(--primary-white) !important;border: var(--primary-white);color: var(--primary-santander);}*/
+#banner_home .banner_home .btn-promo span{font-size: 16px;line-height: normal;vertical-align: bottom;}
+
+#banner_home .banner_home .move-down{ -moz-animation: bounce 2s infinite;-webkit-animation: bounce 2s infinite;animation: bounce 2s infinite;width: 100%;position: absolute;bottom: 16px;text-align: center;}
+#banner_home .banner_home .move-down a{font-size: 40px;color: #fff;}
+
+.contrast #banner_home .banner_home.overlay:before{height:100%;}
+
+#banner_home .banner_home .productos-list ul li a .str-plane-card{background-image: url(../../../uploads/000/019/300/2dcca256-5e70-4a2f-a95b-8c74dc5012fc/original/str-travel-card_3_.svg);display: inline-block;background-repeat: no-repeat;background-position: 0;}
+#banner_home .banner_home .productos-list.desktop ul li a .str-plane-card{width:46px;height:50px;}
+#banner_home .banner_home .productos-list.mobile ul li a .str-plane-card{width:36px;height:40px;}
+
+@media screen and (max-width: 1900px){
+	#banner_home.bannerFraude .content.bg-fraude:after{background-size: 55%; background-position: 20% 40%;}
+}
+
+@media screen and (max-width: 991px){
+	#banner_home .banner_home .title-content .container h1{margin-top:0;}
+	#banner_home .banner_home .title-content .container h1 br:first-of-type, .banner_home .title-content .container h1 br:nth-child(3){display:none;}
+}
+
+@media screen and (max-width: 768px){
+	#banner_home .banner_home{background-position: center;}
+	#banner_home .banner_home:before{height:100% !important;background:rgba(0,0,0,.4) !important;}
+	#banner_home.bannerFraude .banner_home .title-content .container .content {
+  margin-top: 24px !important;
+}
+}
+@media screen and (max-width: 640px){
+	#banner_home .banner_home .promo-logo img{margin-top:30px;}
+	#banner_home .banner_home .title-content{height:77%;top:auto;}
+	#banner_home .banner_home.ios .title-content{height: calc(100% - 170px)}
+	#banner_home .banner_home .title-content .container .content{margin-top:0;}
+	#banner_home .banner_home .title-content .container h1 br{display:none;}
+	#banner_home .banner_home .title-content .container h1{max-width:100%;font-size: 44px;line-height: 58px;}
+}
+@media screen and (max-width: 576px){
+	#banner_home.bannerFraude .content.bg-fraude:after{background-size: 90%; background-position: 50% 30%;}
+}
+@media screen and (max-width: 380px){
+	#banner_home .banner_home .title-content .container h1{max-width:100%;font-size: 40px;line-height: 50px;}
+}
+@media screen and (max-width: 320px){
+	#banner_home .banner_home .title-content{height:65%;}
+	#banner_home .banner_home .title-content .container h1{max-width:100%;font-size: 40px;line-height: 50px;}
+}
+
+
+@media screen and (max-width: 725px) and (orientation : landscape){
+	#banner_home .banner_home .title-content .container h1{max-width: 100%;font-size: 54px;line-height: 58px;}
+	#banner_home .banner_home{height: 500px !important;}
+}
+
+
+
+
+
+.contrast #banner_home .banner_home .productos-list ul li a .str-plane-card {
+  background-image: url(../../../uploads/000/019/586/465c51c3-01ff-4d42-a03c-67e67246b3cc/original/str-travel-card_contrast.svg);
+}
+
+
+#banner_home .banner_home .bannerTextBlack::before{
+	display:none;
+}
+
+#banner_home .banner_home .bannerTextBlack .productos-list ul li a .str-plane-card{background-image: url(../../../uploads/000/045/826/e6b0be35-9139-4888-9c8f-2f4c2ead2dca/original/str-travel-card_3_black.svg);background-size: contain;}
+
+.contrast #banner_home .banner_home  .bannerTextBlack .productos-list ul li a .str-plane-card {
+  background-image: url(../../../uploads/000/019/586/465c51c3-01ff-4d42-a03c-67e67246b3cc/original/str-travel-card_contrast.svg);
+}
+
+#banner_home .banner_home .bannerTextBlack .title-content .container h1{
+	color: var(--primary-black) !important;
+	text-shadow: none;
+}
+
+
+#banner_home .banner_home .bannerTextBlack .productos-list ul li a {
+  color: var(--primary-black) !important;
+}
+
+#banner_home .banner_home .bannerTextBlack .productos-list ul li a h3 {
+  color: var(--primary-black) !important;
+}
+
+#banner_home .banner_home .bannerTextBlack .productos-list.mobile ul li a .necesidad-icon {
+  color: var(--primary-black);
+}
+
+#banner_home .banner_home .bannerTextBlack .productos-list.mobilet ul li a .str-plane-card{background-image: url(../../../uploads/000/045/826/e6b0be35-9139-4888-9c8f-2f4c2ead2dca/original/str-travel-card_3_black.svg);background-size: contain;}
+
+.contrast #banner_home .banner_home  .bannerTextBlack .productos-list.mobile ul li a .str-plane-card {
+  background-image: url(../../../uploads/000/019/586/465c51c3-01ff-4d42-a03c-67e67246b3cc/original/str-travel-card_contrast.svg);
+}
+
+#banner_home .banner_home .bannerTextBlack .productos-list.mobile{background: var(--primary-white);}

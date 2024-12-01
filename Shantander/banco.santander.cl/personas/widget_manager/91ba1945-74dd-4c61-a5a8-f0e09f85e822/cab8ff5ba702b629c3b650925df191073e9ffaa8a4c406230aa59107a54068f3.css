@@ -1,0 +1,233 @@
+/* SLIDER HERO */
+#seguros-remake .slider-holder .breadcrumb{position: absolute; width: 100%;left: 0; z-index: 2;margin-top: 16px;}
+#seguros-remake .seguros-hero-slider{height:500px;position: relative;overflow:hidden;padding-bottom:0;}
+#seguros-remake .seguros-hero-slider.s-slider .tns-outer .tns-slider > .tns-item{padding:0 !important;position: relative;} 
+#seguros-remake .seguros-hero-slider.s-slider .tns-outer, 
+#seguros-remake .seguros-hero-slider.s-slider .tns-outer .tns-ovh,
+#seguros-remake .seguros-hero-slider.s-slider .tns-outer .tns-ovh .tns-inner,
+#seguros-remake .seguros-hero-slider.s-slider .tns-outer .tns-ovh .tns-inner .tns-slider{height:100%;}
+#seguros-remake .seguros-hero-slider.s-slider .controls-container button{background: rgba(255,255,255,.5);border-radius: 100%;transform: translate(0, 48px);}
+#seguros-remake .seguros-hero-slider.s-slider .controls-container button.s-slider-control-next{right:36px;background: var(--secondary-turquoise)}
+#seguros-remake .seguros-hero-slider.s-slider .controls-container button.s-slider-control-prev{left:36px;}
+#seguros-remake .seguros-hero-slider.s-slider .controls-container button span {color: #fff}
+
+#seguros-remake .seguros-hero-slider .overlay::before{ background:linear-gradient(90deg, rgba(0,0,0,0.6) 0%, rgba(255,255,255,0) 100%)!important; 	width:60%;}
+#seguros-remake .anchor {padding-top: 120px;margin-top: -120px;}
+#seguros-remake .seguros-hero-slider .w-7{width:7%;}
+
+#seguros-remake .seguros-hero-slider figure{position: absolute;z-index:0;}
+#seguros-remake .seguros-hero-slider figure img{position:absolute;left:50%;top:0%;transform: translateX(-50%);width:auto;height:100%;max-width: none;}
+#seguros-remake .seguros-hero-slider .container{padding-top: 72px;padding-bottom: 32px;}
+#seguros-remake .seguros-hero-slider .feature{display:block;}
+/*#seguros-remake .seguros-hero-slider .feature p{display:inline-block;border: 1px dashed var(--red-10);background:rgb(158, 54, 103,0.3);width: fit-content;backdrop-filter: blur(5px);} */
+#seguros-remake .seguros-hero-slider .feature .f{display:inline-block;border: 1px dashed var(--red-10);background:rgb(158, 54, 103,0.3);width: fit-content;backdrop-filter: blur(5px);}
+#seguros-remake .seguros-hero-slider .price{border: 2px solid rgba(0,0,0,.2);background:rgba(255,255,255,0.2);width: fit-content;backdrop-filter: blur(5px);display:inline-block;}
+#seguros-remake .seguros-hero-slider .price.text-primary-white{border-color:rgba(255,255,255,0.6);}
+#seguros-remake .seguros-hero-slider.s-slider .dots-container {position: absolute;bottom: 16px;margin-top: 0;}
+#seguros-remake .seguros-hero-slider.s-slider .dots-container button:not(.active){background: rgba(255,255,255,0.6);}
+#seguros-remake .seguros-hero-slider.s-slider .slider-cont{background-size: cover;background-position: 0%;}
+
+
+/* MENU */
+#seguros-remake .row.total.mini {margin: -8px;}
+#seguros-remake .row.total.mini > [class*=col-] {padding: 8px;}
+#seguros-remake .category .circle-icon{width:30px;height:30px;font-size:18px;transition: ease .5s;padding-top: 4px;}
+#seguros-remake .category{transition: ease .5s;}
+#seguros-remake .category:hover{background:var(--purple-60);transform:translateY(-10px);}
+#seguros-remake .category:hover .circle-icon, #seguros-remake .category:focus .circle-icon{background:var(--primary-white);}
+#seguros-remake .category:hover p, #seguros-remake .category:focus p{color:var(--primary-white);}
+#seguros-remake .category:focus{background:var(--secondary-purple);transform:translateY(-10px);}
+#seguros-remake .covid { position: absolute;bottom: 0;width: 130%; background-color:var(--purple-30);transition: ease .5s;}
+#seguros-remake .min-h-180{min-height: 180px;}
+#seguros-remake .category:hover .covid{background:var(--secondary-purple);}
+
+#seguros-remake  .category .label-incentivo  {
+	border-radius: 0 0 20px 20px;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+#seguros-remake  .category .label-incentivo-experimento  {
+	border-radius: 100%;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+
+#seguros-remake .category.experimento:focus{background:none;transform:translateY(-10px);}
+#seguros-remake .category.experimento:hover{background:none;transform:translateY(-10px);}
+
+#seguros-remake .category.experimento:hover .circle-icon, #seguros-remake .category.experimento:focus .circle-icon{background:var(--secondary-purple);color:var(--primary-white);box-shadow: 0px 5px 10px rgba(0,0,0,.15);}
+
+#seguros-remake .category.experimento.b .circle-icon.oportunidad, #seguros-remake .category.experimento.b .circle-icon.oportunidad{background:var(--secondary-purple);color:var(--primary-white);box-shadow: 0px 5px 10px rgba(0,0,0,.15);}
+
+#seguros-remake .category.experimento.b .circle-icon.oportunidad, #seguros-remake .category.experimento.b .circle-icon.oportunidad{background:var(--secondary-purple);color:var(--primary-white);box-shadow: 0px 5px 10px rgba(0,0,0,.15);}
+
+#seguros-remake .category.experimento.b .circle-icon.oportunidad .cars, #seguros-remake .category.experimento.b .circle-icon.oportunidad .cars{background-image: url('../../../uploads/000/040/038/d4c2172e-66e4-48bb-b429-eb53a05cc15f/original/icono-soap-white.svg');
+}
+
+#seguros-remake .category.experimento:hover .circle-icon .cars, #seguros-remake .category.experimento:focus .circle-icon .cars{
+	background-image: url('../../../uploads/000/040/038/d4c2172e-66e4-48bb-b429-eb53a05cc15f/original/icono-soap-white.svg');
+}
+#seguros-remake .category.experimento .circle-icon .cars, #seguros-remake .category.experimento .circle-icon .cars{
+	  background-image: url('../../../uploads/000/040/037/9acefff3-b8b4-453e-a93a-44599853e11d/original/icono-soap.svg');
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background-size: 34px;
+  padding: 0px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  font-size: 0;
+  line-height: inherit;
+}
+
+
+#seguros-remake .category.experimento.b p.oportunidad, #seguros-remake .category.experimento.b p.oportunidad{color:var(--secondary-purple);}
+#seguros-remake .category.experimento:hover p, #seguros-remake .category.experimento:focus p{color:var(--secondary-purple);}
+
+/* DESTACADOS */
+#seguros-remake .bg{ background-image: url('../../../uploads/000/033/855/af0a9a9a-fd30-4db4-b844-7bcddd8dc028/original/bg-destacado.png'); background-repeat:no-repeat; background-position: 50% 50%; background-size: contain; background-size: auto 95%; }
+#seguros-remake .slider-destacados .controls-container button{background: rgb(228 228 228 / 80%);border-radius: 100%;transform: translate(0, 48px);}
+#seguros-remake .slider-destacados .controls-container button span {color: #fff;}
+#seguros-remake .slider-destacados .controls-container button.s-slider-control-next{right:-48px;background: var(--secondary-turquoise)}
+#seguros-remake .slider-destacados .controls-container button.s-slider-control-prev{left:-48px;}
+
+#seguros-remake .slider-destacados .card-seguros .description p{min-height:48px;}
+#seguros-remake .slider-destacados .card-seguros .label-estrella{border-radius: 0 0 20px 20px;padding: 6px 6px 8px;position: absolute;top: 0;left: 30px;z-index: 1;background: var(--secondary-purple);}
+#seguros-remake .slider-destacados .card-seguros .label-estrella span {color: white;font-size: 24px;animation-duration: 1.3s;animation-iteration-count: infinite;display:block;}
+#seguros-remake .slider-destacados .card-seguros figure{position:relative;overflow:hidden;border-top-left-radius: 16px;border-top-right-radius: 16px;height:120px;}
+#seguros-remake .slider-destacados .card-seguros figure > *{position:absolute;left:-50%;right:-50%;bottom:-50%;top:-50%;margin:auto;width:100%;height:auto;max-width:none;}
+
+#seguros-remake .title-destacado-height{ min-height:90px;}
+
+#seguros-remake .slider-destacados .btn-holder{
+	position:absolute;
+	bottom: 15px;
+}
+#seguros-remake .slider-destacados .label-incentivo {
+	border-radius: 0 0 20px 20px;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+
+#seguros-remake .slider-destacados .li-giftcard {
+	background: var(--secondary-turquoise);
+	border-radius: 0 0 20px 20px;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+#seguros-remake .slider-destacados .li-millas {
+	background: var(--secondary-limegreen);
+	border-radius: 0 0 20px 20px;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+#seguros-remake .slider-destacados .li-cornershop {
+	background: var(--secondary-purple);
+	border-radius: 0 0 20px 20px;
+	padding: 4px 4px 6px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	z-index: 1;
+	font-size: 20px;
+}
+
+
+#seguros-remake .label-days {    
+	background-color: var(--primary-white);
+	height: 60px;
+	width: 56px;
+	position: absolute;
+	border-radius: 8px 8px 0 0;
+	top: 60px;
+	top: 80px;
+	z-index: 1;
+	left: 16px;
+	padding: 6px 4px 0 4px;
+}
+#seguros-remake .category .circle-icon{width: 62px; height: 62px; font-size: 34px;} 
+
+
+/* ASISTENCIA */
+#seguros-remake .bg-gradient-bottom-cyan{background: rgb(232,247,248);background: linear-gradient(0deg, rgba(232,247,248,1) 0%, rgba(255,255,255,0) 50%);}
+#seguros-remake .box-asistencia{border:2px solid var(--red-20);}
+#seguros-remake .box-asistencia > p:first-child{margin-top:-45px;background:var(--bg-secondary);}
+
+/* CONTRAST */
+.contrast #seguros-remake .seguros-hero-slider .s-slider-item:before{position: absolute;width:100%;height: 100%;content:'';background:rgba(0,0,0,0.6);z-index: 1;}
+.contrast #seguros-remake .seguros-hero-slider .s-slider-item > div > div.container{z-index:2;}
+.contrast #seguros-remake .seguros-hero-slider .price{border: 2px solid rgba(0,0,0,0.6);background: rgba(0,0,0,0.2);}
+.contrast #seguros-remake .seguros-hero-slider.s-slider .controls-container button{background: rgba(0,0,0,0.2);}
+.contrast #seguros-remake .category .circle-icon{background-color:var(--accessible-yellowaux)!important;border:1px solid var(--accessible-darkyellow);}
+.contrast #seguros-remake .category:hover{background-color:var(--accessible-yellowaux)!important;}
+.contrast #seguros-remake .category:hover .circle-icon{background:var(--accessible-yellow)!important;}
+.contrast #seguros-remake .card-seguros{border: 1px solid var(--accessible-yellow);}
+.contrast #seguros-remake .label-estrella{background:var(--accessible-yellow);}
+.contrast #seguros-remake .label-estrella span{color:var(--primary-black)!important;}
+.contrast #seguros-remake .card-seguros p[class*="bg-"]{background-color:var(--accessible-darkyellow)!important;}
+.contrast #seguros-remake .box-asistencia > p:first-child {background: var(--primary-black);}
+.contrast #seguros-remake .box-asistencia {border: 2px solid var(--accessible-yellow);}
+
+/* BLACK AND WHITE */
+.black-white #seguros-remake .seguros-hero-slider .price{border: 2px solid rgba(0,0,0,0.6);background: rgba(0,0,0,0.2);}
+.black-white #seguros-remake .category{background:var(--primary-white)!important;}
+.black-white #seguros-remake .category .circle-icon{background-color:var(--neutral-grey-10)!important;border:1px solid var(--neutral-grey-30);}
+.black-white #seguros-remake .category:hover{background-color:var(--neutral-grey-10)!important;}
+.black-white #seguros-remake .category:hover .circle-icon{background:var(--primary-white)!important;}
+.black-white #seguros-remake .label-estrella{background:var(--primary-grey);}
+.black-white #seguros-remake .box-asistencia {border: 2px solid var(--primary-grey);}
+.black-white #seguros-remake .seguros-hero-slider.s-slider .slider-cont{filter: grayscale(100%);}
+.black-white #seguros-remake .seguros-hero-slider.s-slider .slider-cont * {color:var(--primary-white)!important;}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 514px){
+	#seguros-remake .slider-destacados .tns-slider > .tns-item {padding: 0px!important;}
+	#seguros-remake .slider-destacados.s-slider .tns-outer .tns-inner {margin: 0!important;     min-height: 420px!important;}
+	#seguros-remake .slider-destacados .controls-container button {display:block}
+	#seguros-remake .slider-destacados .controls-container button.s-slider-control-next{right:-48px;background: var(--secondary-turquoise)}
+	#seguros-remake .slider-destacados .controls-container button.s-slider-control-prev{left:-48px;}
+}
+
+
+@media(min-width:768px){
+	#seguros-remake .h-md-auto{height:auto;}
+	/*	#seguros-remake .category .circle-icon{width:72px;height:72px;font-size:44px;}  */
+	@media (min-width: 768px){
+		#seguros-remake .w-md-48 {
+			width: 48%!important;
+		}
+
+		@media(min-width:992px){
+			#seguros-remake .row.total.mini{margin: -8px -12px;}
+			#seguros-remake .row.total.mini > [class*=col-]{padding: 8px 16px;}
+		}
+
+		@media(min-width:1600px){
+			#seguros-remake .seguros-hero-slider figure img{transform: translateX(-50%) translateY(-50%);top:50%;width:100%;height:auto;}
+		}

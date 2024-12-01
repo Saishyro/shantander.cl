@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="9px" viewBox="0 0 12 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>check</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.615686 0 0 0 0 0.211765 0 0 0 0 0.403922 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-💻" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Lead" transform="translate(-180.000000, -477.000000)">
+            <g id="check" transform="translate(170.000000, 465.000000)" filter="url(#filter-1)">
+                <g transform="translate(10.000000, 12.000000)">
+                    <path d="M11.6485032,2.0500947 L5.31800702,8.3801467 C4.84922614,8.84901641 4.08878964,8.84901641 3.61956461,8.3801467 L0.351718905,5.11206412 C-0.117239635,4.64319441 -0.117239635,3.88266908 0.351718905,3.41371054 C0.820766274,2.94466317 1.58114355,2.94466317 2.04998365,3.41353288 L4.4690375,5.83261634 L9.94997193,0.351652296 C10.4190193,-0.117395073 11.1794558,-0.117039757 11.6483255,0.351652296 C12.1171952,0.820610836 12.1171952,1.58086967 11.6485032,2.0500947 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

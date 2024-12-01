@@ -1,0 +1,8 @@
+.legal__item{background-color:var(--neutral-grey-05);transition:all .3s ease;width:100%!important;padding:16px;border-radius:4px;overflow:hidden;}
+.legal__item:hover{background:var(--neutral-grey-10)}
+.legal__item-icon{padding-right:16px}
+.legal__item-text{font-size:var(--f-small)}
+
+.contrast .legal__item{background:var(--accessible-yellow);}
+.contrast .legal__item:hover{background:var(--accessible-yellowaux);}
+.contrast .legal__item *{color:black !important;}

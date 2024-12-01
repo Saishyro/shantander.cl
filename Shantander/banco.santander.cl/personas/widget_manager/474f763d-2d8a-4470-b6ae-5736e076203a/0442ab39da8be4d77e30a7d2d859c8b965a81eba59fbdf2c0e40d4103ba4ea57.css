@@ -1,0 +1,46 @@
+#appgettarjetas .s-tabs-component ul li{text-align: left;}
+#appgettarjetas .s-tabs-component ul li.active *{color: #ec0000;}
+#appgettarjetas .s-tabs-component ul li p{text-transform:none;}
+
+figure.full{position:relative;}
+
+.contrast .no-ofertable{background:#f8e71c;color:#000 !important;}
+.contrast .no-ofertable span{color:#000 !important;}
+.no-ofertable{position: absolute;right: 0px;bottom: 8px;padding: 4px 16px 4px 16px;background: #fff;font-size: 12px;border-radius: 20px 0 0 20px;display: inline-block;}
+.no-ofertable span{font-size: 20px;vertical-align: text-bottom;margin-right: 8px;display: inline-block;}
+
+.tab-icon{
+	font-size: 40px;
+	color: #444;
+}
+
+#appgettarjetas .boxer{
+	padding:40px;
+	transform: scale(1);
+	display:block;
+	transition: all .3s ease;
+	text-align: center;
+	cursor: pointer;
+}
+
+#appgettarjetas .boxer:hover{
+	transform: scale(1.05);
+	display:block;
+}
+
+#appgettarjetas .boxer h5{
+	text-transform: uppercase;
+	max-width:80%;
+	margin:0 auto;
+	margin-bottom: 12px;
+}
+
+.black-white #appgettarjetas  .s-tabs-component ul li.active * {
+    color: var(--primary-black) !important;
+}
+
+@media screen and (max-width:768px){
+	#appgettarjetas .s-tabs-component ul li{text-align:center}
+	#appgettarjetas .s-tabs-component ul li .d-flex{display:block !important;}
+	#appgettarjetas .s-tabs-component ul li .tab-icon{display:none;}
+}

@@ -1,0 +1,87 @@
+#sucursales .dolar-box {margin-top: 0;padding: 0 !important;display: flex;align-items: center;}
+#sucursales .icon-box-chin{display: flex;align-items: center;justify-content: center;position: static;border-radius: 16px 0 0 16px;height: 100%;width: 82px;min-width: 82px;border: 0;}
+#sucursales .icon-box-chin span {font-size: 36px;color: #fff;top: 0;bottom: 0;height: 36px;margin: auto;position: static;left: 0;right: 0;}
+#sucursales .custom-box{box-shadow: none !important}
+#sucursales .search{position:relative;}
+#sucursales .search span{position: absolute;right: 16px;top: 0;bottom: 0;color: #ec0000;font-size: 32px;margin: auto;height: 32px;}
+#sucursales .search input{width: 100%;background: var(--sky-30);font-size: 14px;line-height: 1.5em;border: 1px solid var(--primary-darksky);border-radius: 30px;padding: 8px 52px 8px 16px;transition: all .3s ease;}
+#sucursales .search input:focus{border-color:var(--primary-accessiblesky);}
+#sucursales .sucursal-list .box-component{margin-bottom:24px;}
+#sucursales .sucursal-list .box-component-alt:hover{box-shadow:0 0 15px rgba(0,0,0,.05)}
+#sucursales .sucursal-list .box-component:last-of-type{margin-bottom:0;}
+#sucursales .sucursal-list .workcafe-img.close{opacity:.4;-webkit-filter: grayscale(100%);filter: grayscale(100%);}
+#sucursales .comunas-group{margin-bottom:32px;}
+#sucursales .comunas-group:last-of-type{margin-bottom:0;}
+#sucursales .sucursales-group-list > li{margin-bottom:24px;padding-bottom:12px;}
+#sucursales .sucursales-group-list > li:last-of-type{margin-bottom:0;padding-bottom:0;border-bottom:0;}
+
+#sucursales .bg-servipag{min-height: 240px;position:relative;padding:16px;}
+#sucursales .bg-servipag:before{content: "";display: block;width: 100%;height: 100%;position: absolute;left: 0;top: 0;background-image: url('../../../uploads/000/045/753/ba90605c-1532-4808-b53a-0947cab4f3f7/original/bg-sucursales-servipag-v6.png');background-size: cover;background-position: 60% top;border-radius: 16px;}
+#sucursales .border-white:hover{border-color: #fff;}
+#sucursales .bg-servipag figure{width: 160px;}
+#sucursales .bg-servipag h6{line-height: 30px;}
+
+#sucursales .text-link.disabled{cursor:default;pointer-events: none;}
+#sucursales .text-link.disabled, #sucursales .text-link.disabled span{color: var(--primary-mediumgrey);}
+#sucursales .text-link.disabled:hover:after{width:0;}
+
+/*#sucursales .accessibility-tooltip .tooltip-content{width:460px;} */
+#sucursales .accessibility-tooltip .tooltip-content .message{font-size:11px !important;}
+#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li{font-size: var(--f-small);margin-bottom: 8px;}
+/*#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li:last-of-type{margin-bottom:0;}*/
+#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li > *{display: inline-block;vertical-align: middle;}
+#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li span{font-size:24px;color:var(--primary-santander);margin-right: 4px;}
+
+/*tooltip como boton no usado en servicios*/
+#sucursales .servicios-tooltip .tooltip-msg {background-color: #e8f7f8;border: 2px solid #1bb3bc;text-align: center;}
+#sucursales .servicios-tooltip .tooltip-content.bottom::before{-webkit-box-shadow: -1px -1px 0 1px #1bb3bc;box-shadow: -1px -1px 0 1px #1bb3bc;background-color: #e8f7f8;top: -3px;left: 0;right: 0;margin: auto;}
+#sucursales .servicios-tooltip	.tooltip-content::before {content: "";position: absolute; width: 10px;height: 10px;background-color: transparent;z-index: 1;-webkit-transform: skew(0deg) rotate(45deg); transform: skew(0deg) rotate(45deg);}
+
+#sucursales .tooltip-content {width: 200px;}
+#sucursales .tooltip-content.info .tooltip-msg p{font-size:14px; }
+
+#sucursales .atm { width: 21px;height: 21px;margin-left: 4px;}    
+
+#sucursales .pl-cont-spacebetw {place-content: space-between; }
+
+#sucursales .br-btm {border-bottom: 1px solid #eee;}
+
+.contrast #sucursales .atm img {    filter: brightness(0%);}
+.black-white #sucursales .atm img {    filter: brightness(0%);}
+.black-white #sucursales .bg-servipag .btn.btn-secondary:not(.disabled){ color: #fff !important;}
+
+#sucursales .divider {border-bottom: 2px solid #EC0000; border-top: none;width: 3.5%;}
+
+@media (max-width: 400px){
+	#sucursales .accessibility-tooltip .tooltip-content.new .tooltip-msg{left: 18%;}
+}
+@media (max-width: 576px) {
+	.f-xsmall {font-size: 12px;}
+}
+
+@media (max-width: 576px) {
+	.f-xsmall {font-size: 12px;}
+	#sucursales .bg-servipag:before{
+		background-image: url('../../../uploads/000/045/744/9c33ca9b-2d1c-4fec-926c-0311358a6454/original/bg-sucursales-servipag-v5-m.png');
+	background-position: 76% top;}
+}
+
+@media (min-width: 768px) {
+	#sucursales .accessibility-tooltip .tooltip-content{width:460px;}
+	#sucursales .accessibility-tooltip .tooltip-content .message{font-size:11px !important;}
+	#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li{font-size: var(--f-small);margin-bottom: 8px;}
+	#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li > *{display: inline-block;vertical-align: middle;}
+	#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li span{font-size:24px;color:var(--primary-santander);margin-right: 4px;}
+	#sucursales .accessibility-tooltip .tooltip-content .accessibility-list li:last-of-type{margin-bottom:0;}
+
+}
+@media screen and (max-width: 992px){
+	#sucursales .bg-servipag{background-position: 52% top;}}
+	.huincha-top{margin-top:-48px;transform: translate(0, -50%);z-index: 1;}
+	.contrast #sucursales .sucursales-group-list li{border-bottom-color:var(--accessible-yellowaux);}
+	.contrast #sucursales .search input{background:#000;border-color:var(--accessible-yellow);}
+	.contrast #sucursales .bg-servipag:before{-webkit-filter: saturate(.4);-moz-filter: saturate(.4);filter: saturate(.4);}
+	.contrast #sucursales .bg-servipag h5, .contrast #sucursales .bg-servipag .text-link span, .contrast #sucursales .bg-servipag .str-chevron-right{color: var(--accessible-yellow)!important;}
+	.black-white #sucursales .bg-servipag:before{-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%);}
+	.black-white #sucursales .bg-servipag h5 {color: var(--primary-white)!important;}
+	.black-white #sucursales .bg-servipag .text-link:hover:after{background: var(--primary-white)!important}

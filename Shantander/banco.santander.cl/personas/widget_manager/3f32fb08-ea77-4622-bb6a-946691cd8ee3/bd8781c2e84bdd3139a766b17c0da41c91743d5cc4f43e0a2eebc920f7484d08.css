@@ -1,0 +1,62 @@
+#home-footer .footer-modyo .phone-content h6{color:#888;}
+#home-footer .footer-modyo .phone-content{margin:0 -7.5px;}
+#home-footer .footer-modyo .phone-content > *{padding:0 7.5px}
+#home-footer .footer-modyo{background:#fff;transition:all .3s ease;padding:60px 0 32px;}
+#home-footer .footer-modyo .phone-icon{padding:10px;border:solid 1px #888;border-radius:100%;font-size:35px;color:#888}
+#home-footer .footer-modyo .sociales-holder{text-align:center;position:relative}
+#home-footer .footer-modyo .sociales-holder:after,#home-footer .footer-modyo .sociales-holder:before{width:15%;content:"";display:block;height:1px;background:#f0f0f0;position:absolute;top:0;bottom:0;margin:auto}
+#home-footer .footer-modyo .sociales-holder:before{left:0}
+#home-footer .footer-modyo .sociales-holder:after{right:0}
+#home-footer .footer-modyo .sociales-holder .redes-sociales{display:inline-block;transition:all .3s ease}
+#home-footer .footer-modyo .footer-nav-list li.nav-link{display:block;margin-bottom:8px}
+#home-footer .footer-modyo .footer-nav-list li.nav-link:last-of-type{margin-bottom:0}
+#home-footer .footer-modyo .footer-nav-list li.nav-link > a{color:#444;font-size:11px;text-transform:uppercase}
+#home-footer .footer-modyo .footer-nav-list li.nav-link > a:hover{text-decoration:underline}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn{position:relative}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn:first-of-type:before{display:none}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn:before{content:"";display:block;height:70%;width:1px;background:#f7f7f7;position:absolute;left:0;top:0;bottom:0;margin:auto}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn a{display:block;padding:15px 5px;text-align:center;text-transform:uppercase;font-size:11px;color:#555;transition:all .3s ease;height:100%;border-radius:4px;line-height:1.2em;}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn a:hover{background:#f7f7f7}
+#home-footer .footer-modyo .footer-nav-list li.nav-btn a span{display:block;margin:0 auto 6px;font-size:25px;transition:all .3s ease}
+#home-footer .footer-modyo .relacionados-nav{position:relative}
+#home-footer .footer-modyo .relacionados-nav.active button span{transform:rotate(180deg)}
+#home-footer .footer-modyo .relacionados-nav button{width:100%;text-align:left;padding:8px 16px;background:#fff;border-radius:4px;border:solid 1px #eee;font-size:14px;position:relative;color:#555}
+#home-footer .footer-modyo .relacionados-nav button span{position:absolute;right:8px;top:0;bottom:0;margin:auto;height:24px;color:#ec0000;transition:all .3s ease;font-size: 24px;}
+#home-footer .footer-modyo .relacionados-nav ul{position:absolute;left:0;width:100%;text-align:left;z-index:1;margin-top:-4px;border:solid 1px #eee}
+#home-footer .footer-modyo .relacionados-nav ul li{display:block}
+#home-footer .footer-modyo .relacionados-nav ul li a{display:block;padding:8px 16px;background:#fff;font-size:14px;color:#555;transition:all .3s ease}
+#home-footer .footer-modyo .relacionados-nav ul li a:hover{color:#ec0000}
+#home-footer .footer-modyo.mobile .sociales-holder{margin-bottom:32px}
+#home-footer .footer-modyo.mobile .sociales-holder:after,#home-footer .footer-modyo.mobile .sociales-holder:before{display:none}
+.icn-x{content: url(../../../uploads/000/044/449/2c9d7997-a612-4229-8bdf-ca0b218fca6a/original/logo-home.svg);height: 22px;transition: ease all .3s;}
+.icn-x:hover{content: url(../../../uploads/000/044/450/50a88a2e-6f26-4b48-b976-55b0ae067a7c/original/logo-black.svg);}
+#home-footer .footer-modyo.mobile .footer-nav-list{display:block;margin-bottom:16px}
+#home-footer .footer-modyo.mobile .footer-nav-list .nav-btn{border-bottom:solid 1px #f7f7f7}
+#home-footer .footer-modyo.mobile .footer-nav-list .nav-btn:before{display:none}
+#home-footer .footer-modyo.mobile .footer-nav-list .nav-btn:last-of-type{border-bottom:0}
+#home-footer .footer-modyo.mobile .footer-nav-list .nav-btn a{text-align:left;padding:8px}
+#home-footer .footer-modyo.mobile .footer-nav-list .nav-btn a span{display:inline-block;vertical-align:middle;margin-right:12px;margin-bottom:0}
+#home-footer .footer-modyo.mobile .footer-legal{padding-top:0;border-top:0;margin-top:0}
+.contrast #home-footer .footer-modyo{background:#000}
+.contrast #home-footer .footer-modyo .phone-icon{border-color:rgba(248,231,28,0.2)}
+.contrast #home-footer .footer-modyo .relacionados-nav button{background:#000;border-color:#f8e71c}
+.contrast #home-footer .footer-modyo .relacionados-nav ul{border-color:#f8e71c}
+.contrast #home-footer .footer-modyo .relacionados-nav ul li a{background:#000}
+.contrast #home-footer .footer-modyo .footer-nav-list li.nav-btn::before{background:rgba(248,231,28,0.2);color:#000!important}
+.contrast #home-footer .footer-modyo .footer-nav-list li.nav-btn a:hover{background:#f8e71c;color:#000!important}
+.contrast #home-footer .footer-modyo .footer-nav-list li.nav-btn a:hover span{color:#000!important}
+.contrast #home-footer .footer-modyo .sociales-holder:after,.contrast #home-footer .footer-modyo .sociales-holder:before{background:rgba(248,231,28,0.2)}
+.black-white #home-footer .footer-modyo .footer-legal p a{color:#444}
+
+.contrast #home-footer .footer-modyo.mobile .footer-nav-list .nav-btn{border-bottom-color:#f8e71c;}
+
+/* MODAL BLOQUEANTE */
+#home-footer .santander-line{width: 37px; height: 2px;}
+#home-footer .santander-line.large{width: 62px; height: 1px;}
+#home-footer .polo-img{ width: 80%; margin-top: -24px; transform: rotateY(-180deg);
+}
+#home-footer .s-modal{z-index: 101;}
+
+@media screen and (max-width: 460px){
+	#home-footer .footer-modyo .footer-nav-list li.nav-btn a{font-size: 13px;}
+}

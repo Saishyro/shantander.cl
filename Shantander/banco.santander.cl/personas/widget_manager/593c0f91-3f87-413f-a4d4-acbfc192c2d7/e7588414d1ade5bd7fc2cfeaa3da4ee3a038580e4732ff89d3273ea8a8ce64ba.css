@@ -1,0 +1,144 @@
+#landing-pulsera .info{background-color:#F5F9FB;border-radius:15px;}
+#landing-pulsera .video-cont figure{position:relative;}
+#landing-pulsera .video-cont figure .video-play{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color:rgba(0,0,0,.5);}
+#landing-pulsera .video-cont figure .video-play span{padding: 6px;color: #fff;background-color: #ec0000;border-radius: 100%;font-size: 40px;cursor:pointer;}
+#landing-pulsera .video-cont .bg-white{border-radius:0 0 6px 6px}
+#landing-pulsera .box-component-alt:hover{box-shadow:0 0 15px rgba(0,0,0,.05) !important;}
+#landing-pulsera .tachado{text-decoration:line-through;}
+
+#landing-pulsera .s-section.bg-pulsera.image {background-color: white;}
+
+#landing-pulsera .min-h-160-px {min-height: 160px;}
+#landing-pulsera .pt-120 {padding-top:120px;}
+
+#landing-pulsera .logo-pulsera  {
+	width: 450px;
+  height: 170px;
+	background-image: url("../../../uploads/000/020/279/038c0934-1261-44d5-b8f5-8daaaf85c196/original/pulserachip-comoda-2.png");
+	background-repeat: no-repeat;
+	background-size:100%; 
+}  
+
+#landing-pulsera .pulsera img {width: 400px;}
+#landing-pulsera .bg-pulsera{background-color:#191919;}
+#landing-pulsera .pr-0 {padding-right: 0;}
+#landing-pulsera .border-right-white:before {
+    content: '';
+    border-right: 1px solid white;
+    height: 35%;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+#landing-pulsera .pb-0 {padding-bottom: 0 !important;}
+
+#landing-pulsera .precio-pulsera img {width: 200px;}
+#landing-pulsera .precio-pulsera2 { margin: none; margin: 0 0 -70px 0;}
+
+
+@media (max-width: 991px){
+	#landing-pulsera .pt-120 {padding-top:75px;}
+	#landing-pulsera .logo-pulsera {
+width: 100%;
+height: 140px;
+}
+}
+
+@media (max-width: 767px){
+	/*#landing-pulsera .order-1 {order: 2;}
+	#landing-pulsera .order-2 {order: 1;} */
+	#landing-pulsera .border-right-white:before {display:none;}
+	#landing-pulsera .precio-pulsera2 {margin: 0 auto; margin-top:20px;}	
+	#landing-pulsera .logo-pulsera { width: 100%; height:170px;}
+}
+@media (max-width: 575px){
+	#landing-pulsera .pulsera img {width: 230px;}
+	#landing-pulsera figure.pulsera {margin: 0 0 40px;}
+	#landing-pulsera .bg-act-pulsera {background-position: center right !important;}
+	#landing-pulsera .bg-act-pulsera:before {
+    content: '';
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.5;
+	}
+	#landing-pulsera .btn-holder>:last-of-type {margin-bottom: 16px !important;}
+}
+
+
+@media (max-width: 375px){
+	#landing-pulsera .btn-holder>:first-of-type, 
+	#landing-pulsera .btn-holder>:last-of-type {width: 100%;}
+	#landing-pulsera .logo-pulsera {height: 120px;}
+}
+
+/*accesibilidad*/
+.black-white #landing.pulsera image {
+	 filter: grayscale(100%) !important;
+}
+
+.contrast #landing-pulsera .s-section.image.bg-act-pulsera:before {
+    content: "";
+    position: absolute;
+    background-color: #0000008a;
+    width: 100%;
+    display: block;
+    filter: grayscale(100%) !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+.contrast #landing-pulsera .pb-0 {padding-bottom: 48px !important;}
+
+.contrast #landing-pulsera .logo-pulsera {
+	width: 450px;
+  height: 170px;
+	background-image: url("../../../uploads/000/020/281/be067d4f-ef06-417f-948f-2a8161c51f73/original/pulserachip-comoda-contrastr.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.contrast #landing-pulsera .precio-pulsera-img{}
+
+.contrast #landing-pulsera .border-right-white:before {content: ""; border-right:none;}
+
+
+
+.black-white #landing-pulsera .s-section.image {filter: grayscale(100%);} 
+.black-white #landing-pulsera .whitetext {color: #fff!important;}
+.black-white  #landing-pulsera .whitetext[class*="text-"]:not(.acc-exclude) {
+    color: #fff !important;}
+
+.black-white #landing-pulsera .whiteh2 {color: #fff!important;}
+.black-white #landing-pulsera .whiteh2[class*="text-"]:not(.acc-exclude) { color: #fff !important;}
+
+.contrast #landing-pulsera .whitetext {color: #444!important;}
+.contrast  #landing-pulsera .whitetext [class*="text-"]:not(.acc-exclude) {
+    color: #444 !important;
+}
+.contrast #landing-pulsera .whith2 {color: #f8e71c!important;}
+.contrast  #landing-pulsera .whiteh2 [class*="text-"]:not(.acc-exclude) {
+	color: #f8e71c !important;}
+
+/*
+.black-white .s-section.color, .black-white .s-section[class*=bg-]{background-color:none!important;}
+.black-white #landing-pulsera .s-section .bg-pulsera {filter: grayscale(100%);}
+
+.black-white #landing-pulsera .s-section [class*=bg-] {background-color: ; filter: grayscale(100%); }
+
+.black-white #landing-pulsera .s-section.color, 
+.black-white #landing-pulsera .s-section {filter: grayscale(100%);}; 
+
+.black-white #landing-pulsera .card-info>p {color: white !important;}
+.black-white #landing-pulsera .card-info>p>span.text-primary-santander {color: white !important;} 
+
+
+
+
+accesibilidad*/
